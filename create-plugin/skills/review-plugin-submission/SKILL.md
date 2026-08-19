@@ -29,7 +29,7 @@ A plugin is implemented and needs a final quality check before submission or rel
 4. Verify repository integration:
    - For marketplace repos, plugin entry exists in `.cursor-plugin/marketplace.json`
    - `source` resolves to plugin directory and names are unique
-   - Grok / Claude / Codex catalogs are regenerated (`node scripts/generate-harness-marketplaces.mjs --check`)
+   - Grok / Claude / Codex catalogs and per-plugin harness manifests include the plugin
    - MCP plugins also ship `.mcp.json` (copy of `mcp.json`)
 5. Verify documentation quality:
    - `README.md` states purpose, installation, and component coverage

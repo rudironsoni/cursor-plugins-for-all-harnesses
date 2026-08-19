@@ -120,7 +120,7 @@ for (const entry of marketplace.plugins ?? []) {
   }
 }
 
-// 3. Validate generated harness marketplaces stay aligned with Cursor
+// 3. Validate harness marketplaces stay aligned with Cursor
 const harnessCatalogs = [
   {
     label: "Claude Code",

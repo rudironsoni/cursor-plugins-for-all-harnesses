@@ -26,11 +26,5 @@ jobs:
       - name: Install dependencies
         run: npm install --no-save ajv ajv-formats
 
-      - name: Check generated harness marketplaces
-        run: node scripts/generate-harness-marketplaces.mjs --check
-
       - name: Validate plugin definitions
         run: node scripts/validate-plugins.mjs
-
-      - name: Test harness marketplace generator
-        run: node scripts/generate-harness-marketplaces.test.mjs

@@ -2,7 +2,7 @@
 
 Official [Cursor plugins](https://github.com/cursor/plugins) packaged so they can be installed from **Cursor**, **Grok Build**, **Claude Code**, and **Codex** marketplaces.
 
-Each plugin is a standalone directory (repo root or `third_party/`) with a Cursor manifest at `.cursor-plugin/plugin.json`. Generated sibling manifests and catalogs make the same plugin discoverable on the other harnesses.
+Each plugin is a standalone directory (repo root or `third_party/`) with a Cursor manifest at `.cursor-plugin/plugin.json`. Sibling manifests and catalogs make the same plugin discoverable on the other harnesses.
 
 ## Install a marketplace
 
@@ -36,14 +36,13 @@ Replace `teaching` with any plugin `name` from the table below.
 
 Hooks and rules stay Cursor-only: their event names and `.mdc` format are not portable. Skills, agents, and MCP servers are shared.
 
-Cursor `.cursor-plugin/marketplace.json` is the source of truth. After changing it (or a plugin manifest), regenerate the other catalogs:
+The catalogs are hand-maintained JSON. After adding or removing a plugin, edit each catalog and the per-plugin harness manifests. See [scripts/sync-upstream.md](scripts/sync-upstream.md).
 
 ```bash
-node scripts/generate-harness-marketplaces.mjs
 node scripts/validate-plugins.mjs
 ```
 
-Generated files:
+Harness files:
 
 - `.grok-plugin/marketplace.json`
 - `.claude-plugin/marketplace.json`
@@ -92,7 +91,7 @@ Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `p
 
 ## Repository structure
 
-This is a multi-plugin, multi-harness marketplace repository. Cursor’s catalog is authored; the Grok, Claude, and Codex catalogs are generated from it.
+This is a multi-plugin, multi-harness marketplace repository. Each catalog is a committed JSON file.
 
 ```
 plugins/
