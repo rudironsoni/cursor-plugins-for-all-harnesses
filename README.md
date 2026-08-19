@@ -1,4 +1,29 @@
-# Cursor plugins
+# Cursor plugins for all harnesses
+
+Fork of [cursor/plugins](https://github.com/cursor/plugins). Plugin logic is unchanged. This fork adds marketplace manifests so the same catalog can be added to Claude Code, Codex, GitHub Copilot CLI, and Grok Build.
+
+## Add the marketplace
+
+```sh
+claude plugin marketplace add rudironsoni/cursor-plugins-for-all-harnesses
+codex plugin marketplace add rudironsoni/cursor-plugins-for-all-harnesses
+copilot plugin marketplace add rudironsoni/cursor-plugins-for-all-harnesses
+grok plugin marketplace add rudironsoni/cursor-plugins-for-all-harnesses
+```
+
+Then install one plugin. Example:
+
+```sh
+claude plugin install cursor-team-kit@cursor-plugins-for-all-harnesses
+```
+
+`.cursor-plugin/marketplace.json` is the source of truth. After an upstream sync, run:
+
+```sh
+node scripts/generate-harness-manifests.mjs
+```
+
+See [scripts/sync-upstream.md](scripts/sync-upstream.md).
 
 Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own `.cursor-plugin/plugin.json` manifest.
 
@@ -43,23 +68,31 @@ Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `p
 
 ## Repository structure
 
-This is a multi-plugin marketplace repository. The root `.cursor-plugin/marketplace.json` lists all plugins, and each plugin has its own manifest:
+This is a multi-plugin marketplace repository. The root `.cursor-plugin/marketplace.json` lists all plugins. Generated catalogs live next to it:
 
 ```
-plugins/
-├── .cursor-plugin/
-│   └── marketplace.json       # Marketplace manifest (lists all plugins)
+.
+├── .cursor-plugin/marketplace.json      # Source of truth (Cursor)
+├── .claude-plugin/marketplace.json      # Claude Code
+├── .agents/plugins/marketplace.json     # Codex / ChatGPT
+├── .github/plugin/marketplace.json      # GitHub Copilot CLI
+├── .grok-plugin/marketplace.json        # Grok Build
 ├── plugin-name/
-│   ├── .cursor-plugin/
-│   │   └── plugin.json        # Per-plugin manifest
-│   ├── skills/                # Agent skills (SKILL.md with frontmatter)
-│   ├── rules/                 # Cursor rules (.mdc files)
-│   ├── mcp.json               # MCP server definitions
+│   ├── .cursor-plugin/plugin.json
+│   ├── .claude-plugin/plugin.json
+│   ├── .codex-plugin/plugin.json
+│   ├── skills/
+│   ├── rules/                           # Cursor only
+│   ├── mcp.json
 │   ├── README.md
 │   ├── CHANGELOG.md
 │   └── LICENSE
 └── ...
 ```
+
+Cursor-only `rules/` files stay in the plugin dirs. Other harnesses do not load them.
+
+`continual-learning` and `ralph-loop` ship Cursor hook event names (`stop`, `afterAgentResponse`). Claude Code validation rejects those keys. Skills in those plugins still install. The hooks themselves stay Cursor-shaped on purpose.
 
 ## License
 

@@ -1,0 +1,211 @@
+{
+  "name": "cursor-plugins-for-all-harnesses",
+  "owner": {
+    "name": "Rudimar Ronsoni",
+    "email": "rudimar.ronsoni@feverup.com"
+  },
+  "metadata": {
+    "description": "Cursor official plugins, with marketplace manifests for Claude Code, Codex, GitHub Copilot CLI, and Grok Build.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "teaching",
+      "description": "Skill mapping, practice plans, and learning retrospectives.",
+      "source": "./teaching",
+      "version": "1.0.0"
+    },
+    {
+      "name": "continual-learning",
+      "description": "Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only.",
+      "source": "./continual-learning",
+      "version": "1.0.0"
+    },
+    {
+      "name": "cursor-team-kit",
+      "description": "Internal team workflows for CI, code review, shipping, local automation, and verification.",
+      "source": "./cursor-team-kit",
+      "version": "1.2.0"
+    },
+    {
+      "name": "thermos",
+      "description": "Thermo-nuclear branch review: deep security/correctness audits, harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional merge-ready PR flows.",
+      "source": "./thermos",
+      "version": "1.0.0"
+    },
+    {
+      "name": "create-plugin",
+      "description": "Scaffold and validate new agent plugins.",
+      "source": "./create-plugin",
+      "version": "1.0.0"
+    },
+    {
+      "name": "ralph-loop",
+      "description": "Iterative self-referential AI loops using the Ralph Wiggum technique.",
+      "source": "./ralph-loop",
+      "version": "1.0.0"
+    },
+    {
+      "name": "agent-compatibility",
+      "description": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality.",
+      "source": "./agent-compatibility",
+      "version": "1.0.0"
+    },
+    {
+      "name": "cli-for-agent",
+      "description": "Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run.",
+      "source": "./cli-for-agent",
+      "version": "1.0.0"
+    },
+    {
+      "name": "pr-review-canvas",
+      "description": "Render PR diffs as review canvases grouped by importance.",
+      "source": "./pr-review-canvas",
+      "version": "0.1.0"
+    },
+    {
+      "name": "docs-canvas",
+      "description": "Render documentation as a navigable canvas.",
+      "source": "./docs-canvas",
+      "version": "0.1.0"
+    },
+    {
+      "name": "cursor-sdk",
+      "description": "Build apps, scripts, and automations with the TypeScript SDK.",
+      "source": "./cursor-sdk",
+      "version": "1.0.0"
+    },
+    {
+      "name": "orchestrate",
+      "description": "Fan large tasks out across parallel cloud agents with planners, workers, verifiers, and structured handoffs.",
+      "source": "./orchestrate",
+      "version": "1.1.0"
+    },
+    {
+      "name": "pstack",
+      "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+      "source": "./pstack",
+      "version": "0.14.1"
+    },
+    {
+      "name": "gmail",
+      "description": "Search, read, draft, and manage email.",
+      "source": "./third_party/gmail",
+      "version": "1.0.0"
+    },
+    {
+      "name": "google-drive",
+      "description": "Search, read, create, and share files.",
+      "source": "./third_party/google-drive",
+      "version": "1.0.0"
+    },
+    {
+      "name": "google-calendar",
+      "description": "Search events and schedule meetings.",
+      "source": "./third_party/google-calendar",
+      "version": "1.0.0"
+    },
+    {
+      "name": "gong",
+      "description": "Pull account summaries, deal insights, and call briefs.",
+      "source": "./third_party/gong",
+      "version": "1.0.0"
+    },
+    {
+      "name": "salesforce",
+      "description": "Query, create, and update records in your org.",
+      "source": "./third_party/salesforce",
+      "version": "1.0.0"
+    },
+    {
+      "name": "playwright",
+      "description": "Navigate, click, screenshot, and test in a real browser.",
+      "source": "./third_party/playwright",
+      "version": "1.0.0"
+    },
+    {
+      "name": "github",
+      "description": "Manage repos, issues, pull requests, and Actions.",
+      "source": "./third_party/github",
+      "version": "1.0.0"
+    },
+    {
+      "name": "ashby",
+      "description": "Search candidates, prep interviews, and manage pipeline tasks.",
+      "source": "./third_party/ashby",
+      "version": "1.0.0"
+    },
+    {
+      "name": "hubspot",
+      "description": "Search and update contacts, companies, deals, and tickets.",
+      "source": "./third_party/hubspot",
+      "version": "1.0.0"
+    },
+    {
+      "name": "intercom",
+      "description": "Search conversations, contacts, and Help Center articles.",
+      "source": "./third_party/intercom",
+      "version": "1.0.0"
+    },
+    {
+      "name": "zoom",
+      "description": "Search meetings, pull transcripts, and work with Zoom Docs.",
+      "source": "./third_party/zoom",
+      "version": "1.0.0"
+    },
+    {
+      "name": "x",
+      "description": "Search posts, read timelines, pull trends, and manage bookmarks.",
+      "source": "./third_party/x",
+      "version": "2.0.0"
+    },
+    {
+      "name": "clay",
+      "description": "Enrich people and companies, run AI research agents.",
+      "source": "./third_party/clay",
+      "version": "1.0.0"
+    },
+    {
+      "name": "circleback",
+      "description": "Search meetings, transcripts, action items, and emails.",
+      "source": "./third_party/circleback",
+      "version": "1.0.0"
+    },
+    {
+      "name": "docusign",
+      "description": "Manage envelopes, templates, workflows, and agreements.",
+      "source": "./third_party/docusign",
+      "version": "1.0.0"
+    },
+    {
+      "name": "navan",
+      "description": "Query expenses, travel bookings, policies, and cards.",
+      "source": "./third_party/navan",
+      "version": "1.0.0"
+    },
+    {
+      "name": "profound",
+      "description": "Track AI visibility, sentiment, and citations.",
+      "source": "./third_party/profound",
+      "version": "1.0.0"
+    },
+    {
+      "name": "juicebox",
+      "description": "Query recruiting analytics, shortlists, and sourcing agents.",
+      "source": "./third_party/juicebox",
+      "version": "1.0.0"
+    },
+    {
+      "name": "outreach",
+      "description": "Search sequences, prospects, and Kaia meetings.",
+      "source": "./third_party/outreach",
+      "version": "1.0.0"
+    },
+    {
+      "name": "amplemarket",
+      "description": "Search people and companies, enrich leads, run sequences.",
+      "source": "./third_party/amplemarket",
+      "version": "1.0.0"
+    }
+  ]
+}

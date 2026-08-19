@@ -4,7 +4,12 @@ on:
   pull_request:
     paths:
       - ".cursor-plugin/marketplace.json"
+      - ".claude-plugin/marketplace.json"
+      - ".agents/plugins/marketplace.json"
+      - ".github/plugin/marketplace.json"
+      - ".grok-plugin/marketplace.json"
       - "**/plugin.json"
+      - "scripts/generate-harness-manifests.mjs"
       - "schemas/**"
 
 jobs:
@@ -22,3 +27,6 @@ jobs:
 
       - name: Validate plugin definitions
         run: node scripts/validate-plugins.mjs
+
+      - name: Check generated harness manifests
+        run: node scripts/generate-harness-manifests.mjs --check
