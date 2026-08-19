@@ -1,6 +1,6 @@
 # Sync this fork with cursor/plugins
 
-`.cursor-plugin/marketplace.json` is the source of truth. After every upstream update, regenerate the other harness catalogs.
+The JSON catalogs are the product. There is no generator.
 
 ## Remotes
 
@@ -18,30 +18,26 @@ git rebase upstream/main
 `README.md` will usually conflict. Start from upstream's plugin table, then put back:
 
 - the fork title and install commands
-- the generated-catalog tree
+- the extra catalog tree
 - the link to this file
 
 Do not keep the fork README wholesale. Upstream plugin additions and removals must stay.
 
 ## After rebase
 
-1. For each plugin added upstream, no extra hand edit is needed. The generator reads the new Cursor manifests.
-2. For each plugin removed upstream, delete leftover `<plugin>/.claude-plugin/` and `<plugin>/.codex-plugin/` dirs if git does not drop them.
-3. Regenerate:
+When upstream adds a plugin, copy a sibling plugin's harness files and edit the names:
+
+1. Add a row to `.claude-plugin/marketplace.json`, `.agents/plugins/marketplace.json`, `.github/plugin/marketplace.json`, and `.grok-plugin/marketplace.json`.
+2. Add `<plugin>/.claude-plugin/plugin.json` and `<plugin>/.codex-plugin/plugin.json`.
+3. For MCP plugins, set `mcpServers` to `./mcp.json` in both plugin manifests.
+
+When upstream removes a plugin, delete those rows and the two harness dirs.
+
+Then:
 
 ```sh
-node scripts/generate-harness-manifests.mjs
-node scripts/generate-harness-manifests.mjs --check
 node scripts/validate-plugins.mjs
+claude plugin validate --strict .
 ```
 
-4. Confirm the generated catalogs list the same plugin names as `.cursor-plugin/marketplace.json`.
-5. Commit the regenerated manifests and push the branch.
-
-## Check without writing
-
-```sh
-node scripts/generate-harness-manifests.mjs --check
-```
-
-This exits 1 when a generated file is missing or stale.
+`scripts/validate-plugins.mjs` is the upstream Cursor checker. It does not cover the other harness files.

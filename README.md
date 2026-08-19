@@ -17,13 +17,7 @@ Then install one plugin. Example:
 claude plugin install cursor-team-kit@cursor-plugins-for-all-harnesses
 ```
 
-`.cursor-plugin/marketplace.json` is the source of truth. After an upstream sync, run:
-
-```sh
-node scripts/generate-harness-manifests.mjs
-```
-
-See [scripts/sync-upstream.md](scripts/sync-upstream.md).
+`.cursor-plugin/marketplace.json` is the Cursor catalog. The other catalogs are hand-maintained JSON next to it. See [scripts/sync-upstream.md](scripts/sync-upstream.md).
 
 Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own `.cursor-plugin/plugin.json` manifest.
 
