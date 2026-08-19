@@ -1,0 +1,437 @@
+{
+  "name": "cursor-plugins",
+  "interface": {
+    "displayName": "Cursor Plugins for All Harnesses"
+  },
+  "plugins": [
+    {
+      "name": "teaching",
+      "source": {
+        "source": "local",
+        "path": "./teaching"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Utilities",
+      "description": "Skill mapping, practice plans, and learning retrospectives."
+    },
+    {
+      "name": "continual-learning",
+      "source": {
+        "source": "local",
+        "path": "./continual-learning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only."
+    },
+    {
+      "name": "cursor-team-kit",
+      "source": {
+        "source": "local",
+        "path": "./cursor-team-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "Internal team workflows for CI, code review, shipping, local automation, and verification."
+    },
+    {
+      "name": "thermos",
+      "source": {
+        "source": "local",
+        "path": "./thermos"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "Thermo-nuclear branch review: deep security/correctness audits, harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional merge-ready PR flows."
+    },
+    {
+      "name": "create-plugin",
+      "source": {
+        "source": "local",
+        "path": "./create-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "Scaffold and validate new agent plugins."
+    },
+    {
+      "name": "ralph-loop",
+      "source": {
+        "source": "local",
+        "path": "./ralph-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "Iterative self-referential AI loops using the Ralph Wiggum technique."
+    },
+    {
+      "name": "agent-compatibility",
+      "source": {
+        "source": "local",
+        "path": "./agent-compatibility"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality."
+    },
+    {
+      "name": "cli-for-agent",
+      "source": {
+        "source": "local",
+        "path": "./cli-for-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run."
+    },
+    {
+      "name": "pr-review-canvas",
+      "source": {
+        "source": "local",
+        "path": "./pr-review-canvas"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "Render PR diffs as review canvases grouped by importance."
+    },
+    {
+      "name": "docs-canvas",
+      "source": {
+        "source": "local",
+        "path": "./docs-canvas"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "Render documentation as a navigable canvas."
+    },
+    {
+      "name": "cursor-sdk",
+      "source": {
+        "source": "local",
+        "path": "./cursor-sdk"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "Build apps, scripts, and automations with the TypeScript SDK."
+    },
+    {
+      "name": "orchestrate",
+      "source": {
+        "source": "local",
+        "path": "./orchestrate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "Fan large tasks out across parallel cloud agents with planners, workers, verifiers, and structured handoffs."
+    },
+    {
+      "name": "pstack",
+      "source": {
+        "source": "local",
+        "path": "./pstack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
+      },
+      "category": "Developer Tools",
+      "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence."
+    },
+    {
+      "name": "gmail",
+      "source": {
+        "source": "local",
+        "path": "./third_party/gmail"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search, read, draft, and manage email."
+    },
+    {
+      "name": "google-drive",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-drive"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search, read, create, and share files."
+    },
+    {
+      "name": "google-calendar",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-calendar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search events and schedule meetings."
+    },
+    {
+      "name": "gong",
+      "source": {
+        "source": "local",
+        "path": "./third_party/gong"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Pull account summaries, deal insights, and call briefs."
+    },
+    {
+      "name": "salesforce",
+      "source": {
+        "source": "local",
+        "path": "./third_party/salesforce"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Query, create, and update records in your org."
+    },
+    {
+      "name": "playwright",
+      "source": {
+        "source": "local",
+        "path": "./third_party/playwright"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Navigate, click, screenshot, and test in a real browser."
+    },
+    {
+      "name": "github",
+      "source": {
+        "source": "local",
+        "path": "./third_party/github"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Manage repos, issues, pull requests, and Actions."
+    },
+    {
+      "name": "ashby",
+      "source": {
+        "source": "local",
+        "path": "./third_party/ashby"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search candidates, prep interviews, and manage pipeline tasks."
+    },
+    {
+      "name": "hubspot",
+      "source": {
+        "source": "local",
+        "path": "./third_party/hubspot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search and update contacts, companies, deals, and tickets."
+    },
+    {
+      "name": "intercom",
+      "source": {
+        "source": "local",
+        "path": "./third_party/intercom"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search conversations, contacts, and Help Center articles."
+    },
+    {
+      "name": "zoom",
+      "source": {
+        "source": "local",
+        "path": "./third_party/zoom"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search meetings, pull transcripts, and work with Zoom Docs."
+    },
+    {
+      "name": "x",
+      "source": {
+        "source": "local",
+        "path": "./third_party/x"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search posts, read timelines, pull trends, and manage bookmarks."
+    },
+    {
+      "name": "clay",
+      "source": {
+        "source": "local",
+        "path": "./third_party/clay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Enrich people and companies, run AI research agents."
+    },
+    {
+      "name": "circleback",
+      "source": {
+        "source": "local",
+        "path": "./third_party/circleback"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search meetings, transcripts, action items, and emails."
+    },
+    {
+      "name": "docusign",
+      "source": {
+        "source": "local",
+        "path": "./third_party/docusign"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Manage envelopes, templates, workflows, and agreements."
+    },
+    {
+      "name": "navan",
+      "source": {
+        "source": "local",
+        "path": "./third_party/navan"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Query expenses, travel bookings, policies, and cards."
+    },
+    {
+      "name": "profound",
+      "source": {
+        "source": "local",
+        "path": "./third_party/profound"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Track AI visibility, sentiment, and citations."
+    },
+    {
+      "name": "juicebox",
+      "source": {
+        "source": "local",
+        "path": "./third_party/juicebox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Query recruiting analytics, shortlists, and sourcing agents."
+    },
+    {
+      "name": "outreach",
+      "source": {
+        "source": "local",
+        "path": "./third_party/outreach"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search sequences, prospects, and Kaia meetings."
+    },
+    {
+      "name": "amplemarket",
+      "source": {
+        "source": "local",
+        "path": "./third_party/amplemarket"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "description": "Search people and companies, enrich leads, run sequences."
+    }
+  ]
+}

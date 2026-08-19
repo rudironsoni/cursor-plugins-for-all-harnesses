@@ -51,6 +51,7 @@ This path makes the plugin immediately available to Cursor without any install s
    - `name`
    - `source`
    - optional metadata (`description`, `keywords`, `category`, `tags`)
+   - then regenerate Grok / Claude / Codex catalogs with `node scripts/generate-harness-marketplaces.mjs`
 7. Ensure all manifest paths are relative, valid, and do not use absolute paths or parent traversal.
 
 ## Guardrails

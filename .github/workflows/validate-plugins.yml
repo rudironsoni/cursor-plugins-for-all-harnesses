@@ -4,8 +4,14 @@ on:
   pull_request:
     paths:
       - ".cursor-plugin/marketplace.json"
+      - ".claude-plugin/**"
+      - ".grok-plugin/**"
+      - ".agents/plugins/**"
       - "**/plugin.json"
+      - "**/mcp.json"
+      - "**/.mcp.json"
       - "schemas/**"
+      - "scripts/**"
 
 jobs:
   validate:
@@ -20,5 +26,11 @@ jobs:
       - name: Install dependencies
         run: npm install --no-save ajv ajv-formats
 
+      - name: Check generated harness marketplaces
+        run: node scripts/generate-harness-marketplaces.mjs --check
+
       - name: Validate plugin definitions
         run: node scripts/validate-plugins.mjs
+
+      - name: Test harness marketplace generator
+        run: node scripts/generate-harness-marketplaces.test.mjs

@@ -1,6 +1,55 @@
-# Cursor plugins
+# Cursor plugins for all harnesses
 
-Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own `.cursor-plugin/plugin.json` manifest.
+Official [Cursor plugins](https://github.com/cursor/plugins) packaged so they can be installed from **Cursor**, **Grok Build**, **Claude Code**, and **Codex** marketplaces.
+
+Each plugin is a standalone directory (repo root or `third_party/`) with a Cursor manifest at `.cursor-plugin/plugin.json`. Generated sibling manifests and catalogs make the same plugin discoverable on the other harnesses.
+
+## Install a marketplace
+
+```bash
+# Grok Build
+grok plugin marketplace add rudironsoni/cursor-plugins-for-all-harnesses
+grok plugin install teaching@cursor-plugins
+
+# Claude Code
+claude plugin marketplace add rudironsoni/cursor-plugins-for-all-harnesses
+claude plugin install teaching@cursor-plugins
+
+# Codex
+codex plugin marketplace add rudironsoni/cursor-plugins-for-all-harnesses
+codex plugin install teaching@cursor-plugins
+```
+
+Cursor still uses `.cursor-plugin/marketplace.json`. Add this repo as a custom marketplace, or copy a plugin directory into `~/.cursor/plugins/local/`.
+
+Replace `teaching` with any plugin `name` from the table below.
+
+## Harness compatibility
+
+| Component | Cursor | Grok Build | Claude Code | Codex |
+|:----------|:------:|:----------:|:-----------:|:-----:|
+| Skills (`skills/*/SKILL.md`) | yes | yes | yes | yes |
+| Agents (`agents/`) | yes | yes | yes | — |
+| MCP (`mcp.json` / `.mcp.json`) | yes | yes | yes | yes |
+| Hooks | yes | — | — | — |
+| Rules (`.mdc`) | yes | — | — | — |
+
+Hooks and rules stay Cursor-only: their event names and `.mdc` format are not portable. Skills, agents, and MCP servers are shared.
+
+Cursor `.cursor-plugin/marketplace.json` is the source of truth. After changing it (or a plugin manifest), regenerate the other catalogs:
+
+```bash
+node scripts/generate-harness-marketplaces.mjs
+node scripts/validate-plugins.mjs
+```
+
+Generated files:
+
+- `.grok-plugin/marketplace.json`
+- `.claude-plugin/marketplace.json`
+- `.agents/plugins/marketplace.json`
+- per-plugin `.grok-plugin/plugin.json`, `.claude-plugin/plugin.json`, `.codex-plugin/plugin.json`
+- `.mcp.json` (copy of `mcp.json` for Grok/Claude/Codex default discovery)
 
 ## Plugins
 
@@ -43,18 +92,23 @@ Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `p
 
 ## Repository structure
 
-This is a multi-plugin marketplace repository. The root `.cursor-plugin/marketplace.json` lists all plugins, and each plugin has its own manifest:
+This is a multi-plugin, multi-harness marketplace repository. Cursor’s catalog is authored; the Grok, Claude, and Codex catalogs are generated from it.
 
 ```
 plugins/
-├── .cursor-plugin/
-│   └── marketplace.json       # Marketplace manifest (lists all plugins)
+├── .cursor-plugin/marketplace.json    # Cursor catalog (source of truth)
+├── .grok-plugin/marketplace.json      # Grok Build catalog
+├── .claude-plugin/marketplace.json    # Claude Code catalog
+├── .agents/plugins/marketplace.json   # Codex catalog
 ├── plugin-name/
-│   ├── .cursor-plugin/
-│   │   └── plugin.json        # Per-plugin manifest
-│   ├── skills/                # Agent skills (SKILL.md with frontmatter)
-│   ├── rules/                 # Cursor rules (.mdc files)
-│   ├── mcp.json               # MCP server definitions
+│   ├── .cursor-plugin/plugin.json
+│   ├── .grok-plugin/plugin.json
+│   ├── .claude-plugin/plugin.json
+│   ├── .codex-plugin/plugin.json
+│   ├── skills/                        # Agent skills (SKILL.md with frontmatter)
+│   ├── agents/                        # Subagent definitions
+│   ├── rules/                         # Cursor rules (.mdc) — Cursor only
+│   ├── mcp.json / .mcp.json           # MCP server definitions
 │   ├── README.md
 │   ├── CHANGELOG.md
 │   └── LICENSE

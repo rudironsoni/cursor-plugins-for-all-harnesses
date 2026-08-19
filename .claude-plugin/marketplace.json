@@ -1,0 +1,767 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cursor-plugins",
+  "description": "Cursor plugins packaged as marketplaces for Grok Build, Claude Code, and Codex.",
+  "owner": {
+    "name": "Rudimar Ronsoni",
+    "email": "rudimar@outlook.com",
+    "url": "https://github.com/rudironsoni"
+  },
+  "metadata": {
+    "pluginRoot": "./",
+    "generatedFrom": ".cursor-plugin/marketplace.json",
+    "upstream": "https://github.com/cursor/plugins"
+  },
+  "plugins": [
+    {
+      "name": "teaching",
+      "source": "./teaching",
+      "description": "Skill mapping, practice plans, and learning retrospectives.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins",
+      "license": "MIT",
+      "keywords": [
+        "teaching",
+        "study-plan",
+        "practice",
+        "feedback",
+        "mentorship"
+      ],
+      "skills": "./skills/"
+    },
+    {
+      "name": "continual-learning",
+      "source": "./continual-learning",
+      "description": "Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only.",
+      "version": "1.0.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins",
+      "license": "MIT",
+      "keywords": [
+        "continual-learning",
+        "agent-memory",
+        "transcripts",
+        "hooks",
+        "incremental"
+      ],
+      "skills": "./skills/",
+      "agents": "./agents/"
+    },
+    {
+      "name": "cursor-team-kit",
+      "source": "./cursor-team-kit",
+      "description": "Internal team workflows for CI, code review, shipping, local automation, and verification.",
+      "version": "1.2.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins",
+      "license": "MIT",
+      "keywords": [
+        "cursor-team-kit",
+        "ci",
+        "code-review",
+        "shipping",
+        "testing",
+        "verification",
+        "local-automation"
+      ],
+      "skills": "./skills/",
+      "agents": "./agents/"
+    },
+    {
+      "name": "thermos",
+      "source": "./thermos",
+      "description": "Thermo-nuclear branch review: deep security/correctness audits, harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional merge-ready PR flows.",
+      "version": "1.0.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins",
+      "license": "MIT",
+      "keywords": [
+        "thermos",
+        "thermo-nuclear",
+        "code-review",
+        "deep-review",
+        "code-quality",
+        "security-review",
+        "subagents"
+      ],
+      "skills": "./skills/",
+      "agents": "./agents/"
+    },
+    {
+      "name": "create-plugin",
+      "source": "./create-plugin",
+      "description": "Scaffold and validate new agent plugins.",
+      "version": "1.0.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins",
+      "license": "MIT",
+      "keywords": [
+        "create-plugin",
+        "cursor-plugin",
+        "marketplace",
+        "plugin-authoring"
+      ],
+      "skills": "./skills/",
+      "agents": "./agents/"
+    },
+    {
+      "name": "ralph-loop",
+      "source": "./ralph-loop",
+      "description": "Iterative self-referential AI loops using the Ralph Wiggum technique.",
+      "version": "1.0.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins",
+      "license": "MIT",
+      "keywords": [
+        "ralph",
+        "loop",
+        "iteration",
+        "self-referential",
+        "automation",
+        "iterative-development"
+      ],
+      "skills": "./skills/"
+    },
+    {
+      "name": "agent-compatibility",
+      "source": "./agent-compatibility",
+      "description": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality.",
+      "version": "1.0.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/agent-compatibility",
+      "license": "MIT",
+      "keywords": [
+        "agent-compatibility",
+        "agents",
+        "compatibility",
+        "cursor-plugin",
+        "repo-audit",
+        "startup",
+        "validation"
+      ],
+      "skills": "./skills/",
+      "agents": "./agents/"
+    },
+    {
+      "name": "cli-for-agent",
+      "source": "./cli-for-agent",
+      "description": "Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run.",
+      "version": "1.0.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/cli-for-agent",
+      "license": "MIT",
+      "keywords": [
+        "cli",
+        "command-line",
+        "agents",
+        "automation",
+        "terminal",
+        "flags",
+        "help"
+      ],
+      "skills": "./skills/"
+    },
+    {
+      "name": "pr-review-canvas",
+      "source": "./pr-review-canvas",
+      "description": "Render PR diffs as review canvases grouped by importance.",
+      "version": "0.1.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/pr-review-canvas",
+      "license": "MIT",
+      "keywords": [
+        "cursor-plugin",
+        "canvas",
+        "pr-review",
+        "code-review",
+        "diff",
+        "pull-request"
+      ],
+      "skills": "./skills/"
+    },
+    {
+      "name": "docs-canvas",
+      "source": "./docs-canvas",
+      "description": "Render documentation as a navigable canvas.",
+      "version": "0.1.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/docs-canvas",
+      "license": "MIT",
+      "keywords": [
+        "cursor-plugin",
+        "canvas",
+        "documentation",
+        "docs",
+        "architecture",
+        "reference"
+      ],
+      "skills": "./skills/"
+    },
+    {
+      "name": "cursor-sdk",
+      "source": "./cursor-sdk",
+      "description": "Build apps, scripts, and automations with the TypeScript SDK.",
+      "version": "1.0.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/cursor-sdk",
+      "license": "MIT",
+      "keywords": [
+        "cursor-sdk",
+        "cursor",
+        "sdk",
+        "typescript",
+        "agents",
+        "automation",
+        "ci",
+        "mcp",
+        "streaming"
+      ],
+      "skills": "./skills/"
+    },
+    {
+      "name": "orchestrate",
+      "source": "./orchestrate",
+      "description": "Fan large tasks out across parallel cloud agents with planners, workers, verifiers, and structured handoffs.",
+      "version": "1.1.0",
+      "category": "development",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/orchestrate",
+      "license": "MIT",
+      "keywords": [
+        "orchestrate",
+        "cursor",
+        "cursor-sdk",
+        "agents",
+        "cloud-agents",
+        "parallel",
+        "automation"
+      ],
+      "skills": "./skills/"
+    },
+    {
+      "name": "pstack",
+      "source": "./pstack",
+      "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+      "version": "0.14.1",
+      "category": "development",
+      "author": {
+        "name": "Lauren Tan"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
+      "license": "MIT",
+      "keywords": [
+        "pstack",
+        "poteto-mode",
+        "workflow",
+        "principles",
+        "agent-style",
+        "subagents",
+        "unslop"
+      ],
+      "skills": "./skills/",
+      "agents": "./agents/"
+    },
+    {
+      "name": "gmail",
+      "source": "./third_party/gmail",
+      "description": "Search, read, draft, and manage email.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/gmail",
+      "license": "MIT",
+      "keywords": [
+        "gmail",
+        "email",
+        "google",
+        "mcp",
+        "workspace"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "google-drive",
+      "source": "./third_party/google-drive",
+      "description": "Search, read, create, and share files.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/google-drive",
+      "license": "MIT",
+      "keywords": [
+        "google-drive",
+        "drive",
+        "google",
+        "mcp",
+        "files",
+        "workspace"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "google-calendar",
+      "source": "./third_party/google-calendar",
+      "description": "Search events and schedule meetings.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/third_party/google-calendar",
+      "license": "MIT",
+      "keywords": [
+        "google-calendar",
+        "calendar",
+        "google",
+        "mcp",
+        "events",
+        "workspace"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "gong",
+      "source": "./third_party/gong",
+      "description": "Pull account summaries, deal insights, and call briefs.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://help.gong.io/docs/about-gong-mcp-server",
+      "license": "MIT",
+      "keywords": [
+        "gong",
+        "mcp",
+        "revenue",
+        "sales",
+        "calls",
+        "deals"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "salesforce",
+      "source": "./third_party/salesforce",
+      "description": "Query, create, and update records in your org.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/cursor.html",
+      "license": "MIT",
+      "keywords": [
+        "salesforce",
+        "crm",
+        "mcp",
+        "sales",
+        "soql",
+        "sobject"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "playwright",
+      "source": "./third_party/playwright",
+      "description": "Navigate, click, screenshot, and test in a real browser.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://github.com/microsoft/playwright-mcp",
+      "license": "MIT",
+      "keywords": [
+        "playwright",
+        "browser",
+        "automation",
+        "testing",
+        "e2e",
+        "mcp"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "github",
+      "source": "./third_party/github",
+      "description": "Manage repos, issues, pull requests, and Actions.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://docs.github.com/en/copilot/how-tos/context/use-mcp/use-the-github-mcp-server",
+      "license": "MIT",
+      "keywords": [
+        "github",
+        "git",
+        "repositories",
+        "pull-requests",
+        "issues",
+        "actions",
+        "mcp"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "ashby",
+      "source": "./third_party/ashby",
+      "description": "Search candidates, prep interviews, and manage pipeline tasks.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://docs.ashbyhq.com/ashby-mcp-server-beta",
+      "license": "MIT",
+      "keywords": [
+        "ashby",
+        "ats",
+        "recruiting",
+        "hiring",
+        "candidates",
+        "interviews",
+        "mcp"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "hubspot",
+      "source": "./third_party/hubspot",
+      "description": "Search and update contacts, companies, deals, and tickets.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server",
+      "license": "MIT",
+      "keywords": [
+        "hubspot",
+        "crm",
+        "mcp",
+        "sales",
+        "marketing",
+        "contacts",
+        "deals"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "intercom",
+      "source": "./third_party/intercom",
+      "description": "Search conversations, contacts, and Help Center articles.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://developers.intercom.com/docs/guides/mcp",
+      "license": "MIT",
+      "keywords": [
+        "intercom",
+        "mcp",
+        "support",
+        "conversations",
+        "contacts",
+        "help-center",
+        "customer-support"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "zoom",
+      "source": "./third_party/zoom",
+      "description": "Search meetings, pull transcripts, and work with Zoom Docs.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://developers.zoom.us/docs/mcp/",
+      "license": "MIT",
+      "keywords": [
+        "zoom",
+        "mcp",
+        "meetings",
+        "recordings",
+        "transcripts",
+        "docs"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "x",
+      "source": "./third_party/x",
+      "description": "Search posts, read timelines, pull trends, and manage bookmarks.",
+      "version": "2.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://docs.x.com/tools/mcp",
+      "license": "MIT",
+      "keywords": [
+        "x",
+        "twitter",
+        "posts",
+        "search",
+        "trends",
+        "news",
+        "lists",
+        "bookmarks",
+        "social",
+        "mcp"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "clay",
+      "source": "./third_party/clay",
+      "description": "Enrich people and companies, run AI research agents.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://university.clay.com/docs/connect-to-clay-mcp",
+      "license": "MIT",
+      "keywords": [
+        "clay",
+        "enrichment",
+        "prospecting",
+        "gtm",
+        "sales",
+        "data",
+        "mcp"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "circleback",
+      "source": "./third_party/circleback",
+      "description": "Search meetings, transcripts, action items, and emails.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://support.circleback.ai/en/articles/13249081-circleback-mcp",
+      "license": "MIT",
+      "keywords": [
+        "circleback",
+        "meetings",
+        "transcripts",
+        "notes",
+        "calendar",
+        "mcp"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "docusign",
+      "source": "./third_party/docusign",
+      "description": "Manage envelopes, templates, workflows, and agreements.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://developers.docusign.com/platform/mcp-server/",
+      "license": "MIT",
+      "keywords": [
+        "docusign",
+        "esignature",
+        "agreements",
+        "mcp",
+        "envelopes",
+        "contracts"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "navan",
+      "source": "./third_party/navan",
+      "description": "Query expenses, travel bookings, policies, and cards.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://developer.navan.com/mcp/",
+      "license": "MIT",
+      "keywords": [
+        "navan",
+        "mcp",
+        "travel",
+        "expenses",
+        "spend",
+        "corporate-cards",
+        "bookings"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "profound",
+      "source": "./third_party/profound",
+      "description": "Track AI visibility, sentiment, and citations.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://docs.tryprofound.com/mcp/overview",
+      "license": "MIT",
+      "keywords": [
+        "profound",
+        "mcp",
+        "aeo",
+        "visibility",
+        "citations",
+        "sentiment",
+        "agents",
+        "analytics"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "juicebox",
+      "source": "./third_party/juicebox",
+      "description": "Query recruiting analytics, shortlists, and sourcing agents.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://docs.juicebox.ai/juicebox-mcp",
+      "license": "MIT",
+      "keywords": [
+        "juicebox",
+        "recruiting",
+        "sourcing",
+        "candidates",
+        "shortlist",
+        "agents",
+        "mcp"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "outreach",
+      "source": "./third_party/outreach",
+      "description": "Search sequences, prospects, and Kaia meetings.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://developers.outreach.io/mcp-server",
+      "license": "MIT",
+      "keywords": [
+        "outreach",
+        "sales",
+        "sequences",
+        "prospects",
+        "kaia",
+        "crm",
+        "mcp"
+      ],
+      "mcpServers": "./.mcp.json"
+    },
+    {
+      "name": "amplemarket",
+      "source": "./third_party/amplemarket",
+      "description": "Search people and companies, enrich leads, run sequences.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Cursor",
+        "email": "plugins@cursor.com"
+      },
+      "homepage": "https://knowledge.amplemarket.com/articles/8022685319-connecting-to-the-amplemarket-mcp-server",
+      "license": "MIT",
+      "keywords": [
+        "amplemarket",
+        "sales",
+        "prospecting",
+        "enrichment",
+        "sequences",
+        "leads",
+        "mcp"
+      ],
+      "mcpServers": "./.mcp.json"
+    }
+  ]
+}

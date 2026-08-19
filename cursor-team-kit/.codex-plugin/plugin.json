@@ -1,0 +1,29 @@
+{
+  "name": "cursor-team-kit",
+  "version": "1.2.0",
+  "description": "Internal engineering team workflows for CI, code review, shipping, control-cli, control-ui, verify-this, test reliability, code cleanup, and work summaries. Designed to work without requiring third-party service integrations.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "cursor-team-kit",
+    "ci",
+    "code-review",
+    "shipping",
+    "testing",
+    "verification",
+    "local-automation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Cursor Team Kit",
+    "shortDescription": "Internal engineering team workflows for CI, code review, shipping, control-cli, control-ui, verify-this, test reliability, code cleanup, and work summaries. Designed to work without requiring third-party service integrations.",
+    "developerName": "Cursor",
+    "category": "Developer Tools",
+    "logo": "./assets/avatar.png"
+  }
+}
