@@ -74,6 +74,11 @@
       "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence."
     },
     {
+      "name": "grok-voice",
+      "source": "grok-voice",
+      "description": "Add Grok voice to an app: realtime speech-to-speech, speech-to-text dictation, text-to-speech read-aloud, and a log-driven fix loop for voice sessions."
+    },
+    {
       "name": "advisor",
       "source": "advisor",
       "description": "Consult a stronger model before major decisions, when stuck, and before declaring done."
@@ -136,7 +141,7 @@
     {
       "name": "x",
       "source": "third_party/x",
-      "description": "Search posts, read timelines, pull trends, and manage bookmarks."
+      "description": "Search posts, read timelines, pull trends, manage bookmarks, and access X Chat."
     },
     {
       "name": "clay",
@@ -329,11 +334,79 @@
       "description": "Browse, search, and read Microsoft OneDrive files."
     },
     {
+      "name": "sharepoint",
+      "source": "third_party/sharepoint",
+      "description": "Search and read Microsoft SharePoint sites, document libraries, files, and lists."
+    },
+    {
+      "name": "teams",
+      "source": "third_party/teams",
+      "description": "Search, read, and send Microsoft Teams chats and channel messages."
+    },
+    {
+      "name": "finance",
+      "source": "third_party/finance",
+      "description": "Securely connect your accounts so Grok can help with questions about your spending, subscriptions, balances, and investments.",
+      "minClientVersions": {
+        "cursor": "never",
+        "grokbot": "0.49.0",
+        "sand": "0.49.0"
+      }
+    },
+    {
       "name": "x-ads",
       "source": "third_party/x-ads",
       "description": "Manage ad campaigns, create ads, track conversions, and pull performance stats."
+    },
+    {
+      "name": "attio",
+      "source": "third_party/attio",
+      "description": "Search and update CRM records, lists, notes, and tasks."
+    },
+    {
+      "name": "hunter",
+      "source": "third_party/hunter",
+      "description": "Find and verify emails, discover companies, and save leads."
+    },
+    {
+      "name": "gamma",
+      "source": "third_party/gamma",
+      "description": "Generate presentations, documents, and webpages."
+    },
+    {
+      "name": "webull",
+      "source": "third_party/webull",
+      "description": "View accounts, positions, orders, watchlists, and market data."
+    },
+    {
+      "name": "sp-global",
+      "source": "third_party/sp-global",
+      "description": "Query S&P Capital IQ financials, prices, and transcripts."
+    },
+    {
+      "name": "interactive-brokers",
+      "source": "third_party/interactive-brokers",
+      "description": "Review positions, balances, P&L, and draft trade instructions."
+    },
+    {
+      "name": "meltwater",
+      "source": "third_party/meltwater",
+      "description": "Search media and social mentions and pull analytics."
+    },
+    {
+      "name": "daloopa",
+      "source": "third_party/daloopa",
+      "description": "Pull source-linked fundamentals, KPIs, filings, and prices."
+    },
+    {
+      "name": "excalidraw",
+      "source": "third_party/excalidraw",
+      "description": "Draw and export hand-drawn diagrams from chat."
+    },
+    {
+      "name": "google-cloud-bigquery",
+      "source": "third_party/google-cloud-bigquery",
+      "description": "Explore datasets and tables and run SQL queries."
     }
   ]
 }
-
-
