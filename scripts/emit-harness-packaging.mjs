@@ -297,10 +297,8 @@ function buildCodexMarketplace(entries) {
     plugins: entries.map((entry) => ({
       name: entry.name,
       source: {
-        source: "git-subdir",
-        url: MARKETPLACE_REPO,
+        source: "local",
         path: toRelativeSource(entry.source),
-        ref: "main",
       },
       policy: {
         installation: "AVAILABLE",

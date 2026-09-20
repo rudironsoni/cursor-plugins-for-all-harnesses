@@ -7,10 +7,8 @@
     {
       "name": "teaching",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./teaching",
-        "ref": "main"
+        "source": "local",
+        "path": "./teaching"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -21,10 +19,8 @@
     {
       "name": "continual-learning",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./continual-learning",
-        "ref": "main"
+        "source": "local",
+        "path": "./continual-learning"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -35,10 +31,8 @@
     {
       "name": "cursor-team-kit",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./cursor-team-kit",
-        "ref": "main"
+        "source": "local",
+        "path": "./cursor-team-kit"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -49,10 +43,8 @@
     {
       "name": "thermos",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./thermos",
-        "ref": "main"
+        "source": "local",
+        "path": "./thermos"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -63,10 +55,8 @@
     {
       "name": "create-plugin",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./create-plugin",
-        "ref": "main"
+        "source": "local",
+        "path": "./create-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -77,10 +67,8 @@
     {
       "name": "ralph-loop",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./ralph-loop",
-        "ref": "main"
+        "source": "local",
+        "path": "./ralph-loop"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -91,10 +79,8 @@
     {
       "name": "agent-compatibility",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./agent-compatibility",
-        "ref": "main"
+        "source": "local",
+        "path": "./agent-compatibility"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -105,10 +91,8 @@
     {
       "name": "cli-for-agent",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./cli-for-agent",
-        "ref": "main"
+        "source": "local",
+        "path": "./cli-for-agent"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -119,10 +103,8 @@
     {
       "name": "pr-review-canvas",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./pr-review-canvas",
-        "ref": "main"
+        "source": "local",
+        "path": "./pr-review-canvas"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -133,10 +115,8 @@
     {
       "name": "docs-canvas",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./docs-canvas",
-        "ref": "main"
+        "source": "local",
+        "path": "./docs-canvas"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -147,10 +127,8 @@
     {
       "name": "cursor-sdk",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./cursor-sdk",
-        "ref": "main"
+        "source": "local",
+        "path": "./cursor-sdk"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -161,10 +139,8 @@
     {
       "name": "orchestrate",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./orchestrate",
-        "ref": "main"
+        "source": "local",
+        "path": "./orchestrate"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -175,10 +151,8 @@
     {
       "name": "pstack",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./pstack",
-        "ref": "main"
+        "source": "local",
+        "path": "./pstack"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -189,10 +163,8 @@
     {
       "name": "grok-voice",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./grok-voice",
-        "ref": "main"
+        "source": "local",
+        "path": "./grok-voice"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -203,10 +175,8 @@
     {
       "name": "advisor",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./advisor",
-        "ref": "main"
+        "source": "local",
+        "path": "./advisor"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -217,10 +187,8 @@
     {
       "name": "gmail",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/gmail",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/gmail"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -231,10 +199,8 @@
     {
       "name": "google-drive",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/google-drive",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/google-drive"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -245,10 +211,8 @@
     {
       "name": "google-calendar",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/google-calendar",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/google-calendar"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -259,10 +223,8 @@
     {
       "name": "gong",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/gong",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/gong"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -273,10 +235,8 @@
     {
       "name": "salesforce",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/salesforce",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/salesforce"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -287,10 +247,8 @@
     {
       "name": "playwright",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/playwright",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/playwright"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -301,10 +259,8 @@
     {
       "name": "github",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/github",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/github"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -315,10 +271,8 @@
     {
       "name": "ashby",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/ashby",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/ashby"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -329,10 +283,8 @@
     {
       "name": "hubspot",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/hubspot",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/hubspot"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -343,10 +295,8 @@
     {
       "name": "intercom",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/intercom",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/intercom"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -357,10 +307,8 @@
     {
       "name": "zoom",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/zoom",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/zoom"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -371,10 +319,8 @@
     {
       "name": "x",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/x",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/x"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -385,10 +331,8 @@
     {
       "name": "clay",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/clay",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/clay"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -399,10 +343,8 @@
     {
       "name": "circleback",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/circleback",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/circleback"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -413,10 +355,8 @@
     {
       "name": "docusign",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/docusign",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/docusign"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -427,10 +367,8 @@
     {
       "name": "navan",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/navan",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/navan"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -441,10 +379,8 @@
     {
       "name": "profound",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/profound",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/profound"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -455,10 +391,8 @@
     {
       "name": "juicebox",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/juicebox",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/juicebox"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -469,10 +403,8 @@
     {
       "name": "outreach",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/outreach",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/outreach"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -483,10 +415,8 @@
     {
       "name": "amplemarket",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/amplemarket",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/amplemarket"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -497,10 +427,8 @@
     {
       "name": "klaviyo",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/klaviyo",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/klaviyo"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -511,10 +439,8 @@
     {
       "name": "customer-io",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/customer-io",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/customer-io"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -525,10 +451,8 @@
     {
       "name": "mailerlite",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/mailerlite",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/mailerlite"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -539,10 +463,8 @@
     {
       "name": "brevo",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/brevo",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/brevo"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -553,10 +475,8 @@
     {
       "name": "typeform",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/typeform",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/typeform"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -567,10 +487,8 @@
     {
       "name": "jotform",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/jotform",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/jotform"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -581,10 +499,8 @@
     {
       "name": "semrush",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/semrush",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/semrush"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -595,10 +511,8 @@
     {
       "name": "ahrefs",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/ahrefs",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/ahrefs"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -609,10 +523,8 @@
     {
       "name": "godaddy",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/godaddy",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/godaddy"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -623,10 +535,8 @@
     {
       "name": "upwork",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/upwork",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/upwork"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -637,10 +547,8 @@
     {
       "name": "workable",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/workable",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/workable"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -651,10 +559,8 @@
     {
       "name": "brex",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/brex",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/brex"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -665,10 +571,8 @@
     {
       "name": "mercury",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/mercury",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/mercury"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -679,10 +583,8 @@
     {
       "name": "todoist",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/todoist",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/todoist"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -693,10 +595,8 @@
     {
       "name": "calendly",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/calendly",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/calendly"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -707,10 +607,8 @@
     {
       "name": "smartsheet",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/smartsheet",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/smartsheet"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -721,10 +619,8 @@
     {
       "name": "wrike",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/wrike",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/wrike"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -735,10 +631,8 @@
     {
       "name": "coda",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/coda",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/coda"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -749,10 +643,8 @@
     {
       "name": "guru",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/guru",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/guru"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -763,10 +655,8 @@
     {
       "name": "fireflies",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/fireflies",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/fireflies"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -777,10 +667,8 @@
     {
       "name": "otter",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/otter",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/otter"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -791,10 +679,8 @@
     {
       "name": "fathom",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/fathom",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/fathom"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -805,10 +691,8 @@
     {
       "name": "craft",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/craft",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/craft"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -819,10 +703,8 @@
     {
       "name": "mem",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/mem",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/mem"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -833,10 +715,8 @@
     {
       "name": "readwise",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/readwise",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/readwise"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -847,10 +727,8 @@
     {
       "name": "similarweb",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/similarweb",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/similarweb"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -861,10 +739,8 @@
     {
       "name": "xero",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/xero",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/xero"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -875,10 +751,8 @@
     {
       "name": "outlook",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/outlook",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/outlook"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -889,10 +763,8 @@
     {
       "name": "outlook-calendar",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/outlook-calendar",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/outlook-calendar"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -903,10 +775,8 @@
     {
       "name": "onedrive",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/onedrive",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/onedrive"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -917,10 +787,8 @@
     {
       "name": "sharepoint",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/sharepoint",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/sharepoint"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -931,10 +799,8 @@
     {
       "name": "teams",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/teams",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/teams"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -945,10 +811,8 @@
     {
       "name": "finance",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/finance",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/finance"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -959,10 +823,8 @@
     {
       "name": "x-ads",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/x-ads",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/x-ads"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -973,10 +835,8 @@
     {
       "name": "attio",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/attio",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/attio"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -987,10 +847,8 @@
     {
       "name": "hunter",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/hunter",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/hunter"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1001,10 +859,8 @@
     {
       "name": "gamma",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/gamma",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/gamma"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1015,10 +871,8 @@
     {
       "name": "webull",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/webull",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/webull"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1029,10 +883,8 @@
     {
       "name": "sp-global",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/sp-global",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/sp-global"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1043,10 +895,8 @@
     {
       "name": "interactive-brokers",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/interactive-brokers",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/interactive-brokers"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1057,10 +907,8 @@
     {
       "name": "meltwater",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/meltwater",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/meltwater"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1071,10 +919,8 @@
     {
       "name": "daloopa",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/daloopa",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/daloopa"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1085,10 +931,8 @@
     {
       "name": "excalidraw",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/excalidraw",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/excalidraw"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1099,10 +943,8 @@
     {
       "name": "google-cloud-bigquery",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/google-cloud-bigquery",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/google-cloud-bigquery"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1113,10 +955,8 @@
     {
       "name": "statsig",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
-        "path": "./third_party/statsig",
-        "ref": "main"
+        "source": "local",
+        "path": "./third_party/statsig"
       },
       "policy": {
         "installation": "AVAILABLE",
