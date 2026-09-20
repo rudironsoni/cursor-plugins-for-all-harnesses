@@ -1,0 +1,10 @@
+{
+  "name": "brex",
+  "version": "1.0.0",
+  "description": "Query expenses, receipts, bills, cards, and travel.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

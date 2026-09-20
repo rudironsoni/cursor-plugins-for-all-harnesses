@@ -2,16 +2,46 @@ name: Validate plugins
 
 on:
   pull_request:
-    paths:
-      - ".cursor-plugin/marketplace.json"
-      - "**/plugin.json"
-      - "schemas/**"
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 7 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: validate-plugins-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
 
 jobs:
-  validate:
+  upstream:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fail when cursor/plugins main is ahead
+        run: |
+          git fetch --depth=1 https://github.com/cursor/plugins.git main
+          ahead=$(git rev-list --count HEAD..FETCH_HEAD)
+          echo "cursor/plugins commits not in this branch: ${ahead}"
+          if [ "${ahead}" -gt 0 ]; then
+            echo "Rebase onto cursor/plugins main. Packaging CI will emit harness files after that push."
+            exit 1
+          fi
+
+  validate:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -20,5 +50,42 @@ jobs:
       - name: Install dependencies
         run: npm install --no-save ajv ajv-formats
 
+      - name: Emit harness packaging
+        run: node scripts/emit-harness-packaging.mjs
+
       - name: Validate plugin definitions
         run: node scripts/validate-plugins.mjs
+
+      - name: OpenCode MCP translate tests
+        run: node scripts/opencode-mcp-translate.test.mjs
+
+      - name: Commit packaging when upstream plugin files changed
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          git add \
+            .claude-plugin \
+            .grok-plugin \
+            .agents \
+            scripts/chatgpt-https-mcps.json \
+            ':(glob)**/.claude-plugin/**' \
+            ':(glob)**/.codex-plugin/**' \
+            ':(glob)**/.grok-plugin/**' \
+            ':(glob)**/.mcp.json' \
+            ':(glob)**/.app.json' \
+            ':(glob)**/opencode.js'
+          if git diff --cached --quiet; then
+            echo "Harness packaging already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "$(cat <<'EOF'
+          chore(harness): emit packaging after upstream
+
+          Regenerate Claude, Grok, Codex, and OpenCode files from the Cursor marketplace.
+          EOF
+          )"
+          git push
+
+      - name: Require a clean packaging tree
+        run: git diff --exit-code

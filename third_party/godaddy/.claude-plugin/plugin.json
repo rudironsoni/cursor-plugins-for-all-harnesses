@@ -1,0 +1,11 @@
+{
+  "name": "godaddy",
+  "version": "1.0.0",
+  "description": "Brainstorm domain names and check availability.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "GoDaddy",
+  "mcpServers": "./mcp.json"
+}

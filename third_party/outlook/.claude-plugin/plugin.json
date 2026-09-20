@@ -1,0 +1,11 @@
+{
+  "name": "outlook",
+  "version": "1.0.0",
+  "description": "Search, read, and send Microsoft Outlook email, and look up contacts.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Outlook",
+  "mcpServers": "./mcp.json"
+}

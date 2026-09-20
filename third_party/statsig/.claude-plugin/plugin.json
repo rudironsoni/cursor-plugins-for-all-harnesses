@@ -1,0 +1,11 @@
+{
+  "name": "statsig",
+  "version": "1.0.0",
+  "description": "Inspect and manage feature gates, experiments, dynamic configs, and metrics.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Statsig",
+  "mcpServers": "./mcp.json"
+}

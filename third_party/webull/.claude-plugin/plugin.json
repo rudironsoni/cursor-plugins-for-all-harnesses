@@ -1,0 +1,11 @@
+{
+  "name": "webull",
+  "version": "1.0.0",
+  "description": "View accounts, positions, orders, watchlists, and market data.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Webull",
+  "mcpServers": "./mcp.json"
+}

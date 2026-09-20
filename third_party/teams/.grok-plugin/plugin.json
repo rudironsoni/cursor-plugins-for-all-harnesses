@@ -1,0 +1,10 @@
+{
+  "name": "teams",
+  "version": "1.0.0",
+  "description": "Search, read, and send Microsoft Teams chats and channel messages.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

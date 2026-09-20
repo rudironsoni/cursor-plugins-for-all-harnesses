@@ -5,5 +5,8 @@
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"
-  }
+  },
+  "displayName": "Create Plugin",
+  "skills": "./skills/",
+  "agents": "./agents/"
 }

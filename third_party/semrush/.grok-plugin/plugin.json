@@ -1,0 +1,10 @@
+{
+  "name": "semrush",
+  "version": "1.0.0",
+  "description": "Research keywords, backlinks, traffic, and competitors.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

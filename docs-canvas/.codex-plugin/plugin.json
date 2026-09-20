@@ -6,5 +6,32 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "skills": "./skills/"
+  "homepage": "https://github.com/cursor/plugins/tree/main/docs-canvas",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "cursor-plugin",
+    "canvas",
+    "documentation",
+    "docs",
+    "architecture",
+    "reference"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Docs Canvas",
+    "shortDescription": "Render documentation as a navigable canvas.",
+    "longDescription": "Render documentation as a navigable canvas.",
+    "developerName": "Cursor",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Use Docs Canvas."
+    ],
+    "websiteURL": "https://github.com/cursor/plugins/tree/main/docs-canvas",
+    "logo": "./assets/avatar.png",
+    "composerIcon": "./assets/avatar.png"
+  }
 }

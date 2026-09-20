@@ -1,10 +1,44 @@
 {
   "name": "x",
-  "version": "2.0.0",
-  "description": "Search posts, read timelines, pull trends, and manage bookmarks.",
+  "version": "2.5.0",
+  "description": "Search posts, read timelines, pull trends, manage bookmarks, and access X Chat.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "mcpServers": "./mcp.json"
+  "homepage": "https://docs.x.com/tools/mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "x",
+    "twitter",
+    "posts",
+    "search",
+    "trends",
+    "news",
+    "lists",
+    "bookmarks",
+    "chat",
+    "social",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "X",
+    "shortDescription": "Search posts, read timelines, pull trends, manage bookmarks, and access X Chat.",
+    "longDescription": "Search posts, read timelines, pull trends, manage bookmarks, and access X Chat.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use X."
+    ],
+    "websiteURL": "https://docs.x.com/tools/mcp",
+    "logo": "./assets/logo.svg",
+    "composerIcon": "./assets/logo.svg"
+  }
 }

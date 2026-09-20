@@ -1,0 +1,10 @@
+{
+  "name": "mailerlite",
+  "version": "1.0.0",
+  "description": "Manage subscribers, groups, campaigns, and automations.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

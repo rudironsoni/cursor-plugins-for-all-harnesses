@@ -1,10 +1,12 @@
 {
   "name": "x",
-  "version": "2.0.0",
-  "description": "Search posts, read timelines, pull trends, and manage bookmarks.",
+  "version": "2.5.0",
+  "description": "Search posts, read timelines, pull trends, manage bookmarks, and access X Chat.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
+  "displayName": "X",
+  "skills": "./skills/",
   "mcpServers": "./mcp.json"
 }

@@ -1,0 +1,10 @@
+{
+  "name": "sharepoint",
+  "version": "1.0.0",
+  "description": "Search and read Microsoft SharePoint sites, document libraries, files, and lists.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

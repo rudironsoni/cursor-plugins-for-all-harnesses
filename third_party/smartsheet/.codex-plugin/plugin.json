@@ -1,0 +1,38 @@
+{
+  "name": "smartsheet",
+  "version": "1.0.0",
+  "description": "Query and update sheets, rows, and workspaces.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "smartsheet",
+    "sheets",
+    "project-management",
+    "work-management",
+    "rows",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Smartsheet",
+    "shortDescription": "Query and update sheets, rows, and workspaces.",
+    "longDescription": "Query and update sheets, rows, and workspaces.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Smartsheet."
+    ],
+    "websiteURL": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}

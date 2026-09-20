@@ -1,0 +1,11 @@
+{
+  "name": "smartsheet",
+  "version": "1.0.0",
+  "description": "Query and update sheets, rows, and workspaces.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Smartsheet",
+  "mcpServers": "./mcp.json"
+}

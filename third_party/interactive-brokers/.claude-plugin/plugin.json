@@ -1,0 +1,11 @@
+{
+  "name": "interactive-brokers",
+  "version": "1.0.0",
+  "description": "Review positions, balances, P&L, and draft trade instructions.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Interactive Brokers",
+  "mcpServers": "./mcp.json"
+}

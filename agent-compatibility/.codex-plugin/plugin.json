@@ -6,5 +6,33 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "skills": "./skills/"
+  "homepage": "https://github.com/cursor/plugins/tree/main/agent-compatibility",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "agent-compatibility",
+    "agents",
+    "compatibility",
+    "cursor-plugin",
+    "repo-audit",
+    "startup",
+    "validation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Compatibility",
+    "shortDescription": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality.",
+    "longDescription": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality.",
+    "developerName": "Cursor",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Use Agent Compatibility."
+    ],
+    "websiteURL": "https://github.com/cursor/plugins/tree/main/agent-compatibility",
+    "logo": "./assets/avatar.png",
+    "composerIcon": "./assets/avatar.png"
+  }
 }

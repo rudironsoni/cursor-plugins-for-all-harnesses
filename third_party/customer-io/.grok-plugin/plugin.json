@@ -1,0 +1,10 @@
+{
+  "name": "customer-io",
+  "version": "1.0.0",
+  "description": "Build campaigns, manage segments, and query people.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

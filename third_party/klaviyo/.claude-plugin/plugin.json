@@ -1,0 +1,11 @@
+{
+  "name": "klaviyo",
+  "version": "1.0.0",
+  "description": "Manage profiles, segments, campaigns, and flows.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Klaviyo",
+  "mcpServers": "./mcp.json"
+}

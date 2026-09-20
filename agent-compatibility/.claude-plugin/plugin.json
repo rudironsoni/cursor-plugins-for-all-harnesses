@@ -5,5 +5,8 @@
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"
-  }
+  },
+  "displayName": "Agent Compatibility",
+  "skills": "./skills/",
+  "agents": "./agents/"
 }

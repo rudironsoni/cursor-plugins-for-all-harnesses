@@ -1,0 +1,10 @@
+{
+  "name": "daloopa",
+  "version": "1.0.0",
+  "description": "Pull source-linked fundamentals, KPIs, filings, and prices.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

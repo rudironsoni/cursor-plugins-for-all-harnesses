@@ -1,0 +1,11 @@
+{
+  "name": "meltwater",
+  "version": "1.0.0",
+  "description": "Search media and social mentions and pull analytics.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Meltwater",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ahrefs",
+  "version": "1.0.0",
+  "description": "Research keywords, backlinks, rankings, and site health.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://ahrefs.com/mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "ahrefs",
+    "seo",
+    "backlinks",
+    "keywords",
+    "rank-tracking",
+    "site-audit",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Ahrefs",
+    "shortDescription": "Research keywords, backlinks, rankings, and site health.",
+    "longDescription": "Research keywords, backlinks, rankings, and site health.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Ahrefs."
+    ],
+    "websiteURL": "https://ahrefs.com/mcp",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}

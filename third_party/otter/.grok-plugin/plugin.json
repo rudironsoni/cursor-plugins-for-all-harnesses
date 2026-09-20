@@ -1,0 +1,10 @@
+{
+  "name": "otter",
+  "version": "1.0.0",
+  "description": "Search meeting history and pull full transcripts.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "mercury",
+  "version": "1.0.0",
+  "description": "Read balances, transactions, statements, and cards.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

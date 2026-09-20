@@ -1,0 +1,11 @@
+{
+  "name": "workable",
+  "version": "1.0.0",
+  "description": "Search candidates, move pipelines, and manage HR records.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Workable",
+  "mcpServers": "./mcp.json"
+}

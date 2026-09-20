@@ -1,40 +1,554 @@
 {
   "name": "cursor-plugins",
-  "description": "Cursor plugins.",
-  "owner": { "name": "Rudimar Ronsoni" },
+  "description": "Cursor plugins packaged for Claude Code, Grok Build, Codex, ChatGPT, and OpenCode.",
+  "owner": {
+    "name": "Rudimar Ronsoni"
+  },
   "plugins": [
-    {"name": "teaching", "source": "./teaching", "strict": false},
-    {"name": "continual-learning", "source": "./continual-learning", "strict": false},
-    {"name": "cursor-team-kit", "source": "./cursor-team-kit", "strict": false},
-    {"name": "thermos", "source": "./thermos", "strict": false},
-    {"name": "create-plugin", "source": "./create-plugin", "strict": false},
-    {"name": "ralph-loop", "source": "./ralph-loop", "strict": false},
-    {"name": "agent-compatibility", "source": "./agent-compatibility", "strict": false},
-    {"name": "cli-for-agent", "source": "./cli-for-agent", "strict": false},
-    {"name": "pr-review-canvas", "source": "./pr-review-canvas", "strict": false},
-    {"name": "docs-canvas", "source": "./docs-canvas", "strict": false},
-    {"name": "cursor-sdk", "source": "./cursor-sdk", "strict": false},
-    {"name": "orchestrate", "source": "./orchestrate", "strict": false},
-    {"name": "pstack", "source": "./pstack", "strict": false},
-    {"name": "gmail", "source": "./third_party/gmail", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "google-drive", "source": "./third_party/google-drive", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "google-calendar", "source": "./third_party/google-calendar", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "gong", "source": "./third_party/gong", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "salesforce", "source": "./third_party/salesforce", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "playwright", "source": "./third_party/playwright", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "github", "source": "./third_party/github", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "ashby", "source": "./third_party/ashby", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "hubspot", "source": "./third_party/hubspot", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "intercom", "source": "./third_party/intercom", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "zoom", "source": "./third_party/zoom", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "x", "source": "./third_party/x", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "clay", "source": "./third_party/clay", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "circleback", "source": "./third_party/circleback", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "docusign", "source": "./third_party/docusign", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "navan", "source": "./third_party/navan", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "profound", "source": "./third_party/profound", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "juicebox", "source": "./third_party/juicebox", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "outreach", "source": "./third_party/outreach", "strict": false, "mcpServers": "./mcp.json"},
-    {"name": "amplemarket", "source": "./third_party/amplemarket", "strict": false, "mcpServers": "./mcp.json"}
+    {
+      "name": "teaching",
+      "source": "./teaching",
+      "strict": false,
+      "description": "Skill mapping, practice plans, and learning retrospectives."
+    },
+    {
+      "name": "continual-learning",
+      "source": "./continual-learning",
+      "strict": false,
+      "description": "Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only."
+    },
+    {
+      "name": "cursor-team-kit",
+      "source": "./cursor-team-kit",
+      "strict": false,
+      "description": "Internal team workflows for CI, code review, shipping, local automation, and verification."
+    },
+    {
+      "name": "thermos",
+      "source": "./thermos",
+      "strict": false,
+      "description": "Thermo-nuclear branch review: deep security/correctness audits, harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional merge-ready PR flows."
+    },
+    {
+      "name": "create-plugin",
+      "source": "./create-plugin",
+      "strict": false,
+      "description": "Scaffold and validate new agent plugins."
+    },
+    {
+      "name": "ralph-loop",
+      "source": "./ralph-loop",
+      "strict": false,
+      "description": "Iterative self-referential AI loops using the Ralph Wiggum technique."
+    },
+    {
+      "name": "agent-compatibility",
+      "source": "./agent-compatibility",
+      "strict": false,
+      "description": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality."
+    },
+    {
+      "name": "cli-for-agent",
+      "source": "./cli-for-agent",
+      "strict": false,
+      "description": "Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run."
+    },
+    {
+      "name": "pr-review-canvas",
+      "source": "./pr-review-canvas",
+      "strict": false,
+      "description": "Render PR diffs as review canvases grouped by importance."
+    },
+    {
+      "name": "docs-canvas",
+      "source": "./docs-canvas",
+      "strict": false,
+      "description": "Render documentation as a navigable canvas."
+    },
+    {
+      "name": "cursor-sdk",
+      "source": "./cursor-sdk",
+      "strict": false,
+      "description": "Build apps, scripts, and automations with the TypeScript SDK."
+    },
+    {
+      "name": "orchestrate",
+      "source": "./orchestrate",
+      "strict": false,
+      "description": "Fan large tasks out across parallel cloud agents with planners, workers, verifiers, and structured handoffs."
+    },
+    {
+      "name": "pstack",
+      "source": "./pstack",
+      "strict": false,
+      "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence."
+    },
+    {
+      "name": "grok-voice",
+      "source": "./grok-voice",
+      "strict": false,
+      "description": "Add Grok voice to an app: realtime speech-to-speech, speech-to-text dictation, text-to-speech read-aloud, and a log-driven fix loop for voice sessions."
+    },
+    {
+      "name": "advisor",
+      "source": "./advisor",
+      "strict": false,
+      "description": "Consult a stronger model before major decisions, when stuck, and before declaring done."
+    },
+    {
+      "name": "gmail",
+      "source": "./third_party/gmail",
+      "strict": false,
+      "description": "Search, read, draft, and manage email.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "google-drive",
+      "source": "./third_party/google-drive",
+      "strict": false,
+      "description": "Search, read, create, and share files.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "google-calendar",
+      "source": "./third_party/google-calendar",
+      "strict": false,
+      "description": "Search events and schedule meetings.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "gong",
+      "source": "./third_party/gong",
+      "strict": false,
+      "description": "Pull account summaries, deal insights, and call briefs.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "salesforce",
+      "source": "./third_party/salesforce",
+      "strict": false,
+      "description": "Query, create, and update records in your org.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "playwright",
+      "source": "./third_party/playwright",
+      "strict": false,
+      "description": "Navigate, click, screenshot, and test in a real browser.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "github",
+      "source": "./third_party/github",
+      "strict": false,
+      "description": "Manage repos, issues, pull requests, and Actions.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "ashby",
+      "source": "./third_party/ashby",
+      "strict": false,
+      "description": "Search candidates, prep interviews, and manage pipeline tasks.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "hubspot",
+      "source": "./third_party/hubspot",
+      "strict": false,
+      "description": "Search and update contacts, companies, deals, and tickets.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "intercom",
+      "source": "./third_party/intercom",
+      "strict": false,
+      "description": "Search conversations, contacts, and Help Center articles.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "zoom",
+      "source": "./third_party/zoom",
+      "strict": false,
+      "description": "Search meetings, pull transcripts, and work with Zoom Docs.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "x",
+      "source": "./third_party/x",
+      "strict": false,
+      "description": "Search posts, read timelines, pull trends, manage bookmarks, and access X Chat.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "clay",
+      "source": "./third_party/clay",
+      "strict": false,
+      "description": "Enrich people and companies, run AI research agents.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "circleback",
+      "source": "./third_party/circleback",
+      "strict": false,
+      "description": "Search meetings, transcripts, action items, and emails.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "docusign",
+      "source": "./third_party/docusign",
+      "strict": false,
+      "description": "Manage envelopes, templates, workflows, and agreements.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "navan",
+      "source": "./third_party/navan",
+      "strict": false,
+      "description": "Query expenses, travel bookings, policies, and cards.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "profound",
+      "source": "./third_party/profound",
+      "strict": false,
+      "description": "Track AI visibility, sentiment, and citations.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "juicebox",
+      "source": "./third_party/juicebox",
+      "strict": false,
+      "description": "Query recruiting analytics, shortlists, and sourcing agents.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "outreach",
+      "source": "./third_party/outreach",
+      "strict": false,
+      "description": "Search sequences, prospects, and Kaia meetings.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "amplemarket",
+      "source": "./third_party/amplemarket",
+      "strict": false,
+      "description": "Search people and companies, enrich leads, run sequences.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "klaviyo",
+      "source": "./third_party/klaviyo",
+      "strict": false,
+      "description": "Manage profiles, segments, campaigns, and flows.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "customer-io",
+      "source": "./third_party/customer-io",
+      "strict": false,
+      "description": "Build campaigns, manage segments, and query people.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "mailerlite",
+      "source": "./third_party/mailerlite",
+      "strict": false,
+      "description": "Manage subscribers, groups, campaigns, and automations.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "brevo",
+      "source": "./third_party/brevo",
+      "strict": false,
+      "description": "Manage contacts, email and SMS campaigns, and CRM deals.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "typeform",
+      "source": "./third_party/typeform",
+      "strict": false,
+      "description": "Build forms, analyze responses, and manage contacts.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "jotform",
+      "source": "./third_party/jotform",
+      "strict": false,
+      "description": "Create and edit forms, then read submissions.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "semrush",
+      "source": "./third_party/semrush",
+      "strict": false,
+      "description": "Research keywords, backlinks, traffic, and competitors.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "ahrefs",
+      "source": "./third_party/ahrefs",
+      "strict": false,
+      "description": "Research keywords, backlinks, rankings, and site health.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "godaddy",
+      "source": "./third_party/godaddy",
+      "strict": false,
+      "description": "Brainstorm domain names and check availability.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "upwork",
+      "source": "./third_party/upwork",
+      "strict": false,
+      "description": "Search talent, post jobs, and manage contracts.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "workable",
+      "source": "./third_party/workable",
+      "strict": false,
+      "description": "Search candidates, move pipelines, and manage HR records.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "brex",
+      "source": "./third_party/brex",
+      "strict": false,
+      "description": "Query expenses, receipts, bills, cards, and travel.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "mercury",
+      "source": "./third_party/mercury",
+      "strict": false,
+      "description": "Read balances, transactions, statements, and cards.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "todoist",
+      "source": "./third_party/todoist",
+      "strict": false,
+      "description": "Create, find, and complete tasks and projects.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "calendly",
+      "source": "./third_party/calendly",
+      "strict": false,
+      "description": "Check availability and book, cancel, or reschedule.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "smartsheet",
+      "source": "./third_party/smartsheet",
+      "strict": false,
+      "description": "Query and update sheets, rows, and workspaces.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "wrike",
+      "source": "./third_party/wrike",
+      "strict": false,
+      "description": "Search projects, create tasks, and post comments.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "coda",
+      "source": "./third_party/coda",
+      "strict": false,
+      "description": "Search docs, read pages, and update tables.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "guru",
+      "source": "./third_party/guru",
+      "strict": false,
+      "description": "Search company knowledge and draft verified answers.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "fireflies",
+      "source": "./third_party/fireflies",
+      "strict": false,
+      "description": "Search meeting transcripts, summaries, and action items.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "otter",
+      "source": "./third_party/otter",
+      "strict": false,
+      "description": "Search meeting history and pull full transcripts.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "fathom",
+      "source": "./third_party/fathom",
+      "strict": false,
+      "description": "Search meetings and pull transcripts and summaries.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "craft",
+      "source": "./third_party/craft",
+      "strict": false,
+      "description": "Search, create, and update documents and daily notes.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "mem",
+      "source": "./third_party/mem",
+      "strict": false,
+      "description": "Capture, search, and organize notes and collections.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "readwise",
+      "source": "./third_party/readwise",
+      "strict": false,
+      "description": "Search highlights and Reader documents, save articles.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "similarweb",
+      "source": "./third_party/similarweb",
+      "strict": false,
+      "description": "Analyze website traffic, audiences, and competitors.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "xero",
+      "source": "./third_party/xero",
+      "strict": false,
+      "description": "Read and write invoices, contacts, reports, and payroll.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "outlook",
+      "source": "./third_party/outlook",
+      "strict": false,
+      "description": "Search, read, and send Microsoft Outlook email, and look up contacts.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "outlook-calendar",
+      "source": "./third_party/outlook-calendar",
+      "strict": false,
+      "description": "List, create, update, and cancel Microsoft Outlook calendar events.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "onedrive",
+      "source": "./third_party/onedrive",
+      "strict": false,
+      "description": "Browse, search, and read Microsoft OneDrive files.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "sharepoint",
+      "source": "./third_party/sharepoint",
+      "strict": false,
+      "description": "Search and read Microsoft SharePoint sites, document libraries, files, and lists.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "teams",
+      "source": "./third_party/teams",
+      "strict": false,
+      "description": "Search, read, and send Microsoft Teams chats and channel messages.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "finance",
+      "source": "./third_party/finance",
+      "strict": false,
+      "description": "Securely connect your accounts so Grok can help with questions about your spending, subscriptions, balances, and investments.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "x-ads",
+      "source": "./third_party/x-ads",
+      "strict": false,
+      "description": "Manage ad campaigns, create ads, track conversions, and pull performance stats.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "attio",
+      "source": "./third_party/attio",
+      "strict": false,
+      "description": "Search and update CRM records, lists, notes, and tasks.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "hunter",
+      "source": "./third_party/hunter",
+      "strict": false,
+      "description": "Find and verify emails, discover companies, and save leads.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "gamma",
+      "source": "./third_party/gamma",
+      "strict": false,
+      "description": "Generate presentations, documents, and webpages.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "webull",
+      "source": "./third_party/webull",
+      "strict": false,
+      "description": "View accounts, positions, orders, watchlists, and market data.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "sp-global",
+      "source": "./third_party/sp-global",
+      "strict": false,
+      "description": "Query S&P Capital IQ financials, prices, and transcripts.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "interactive-brokers",
+      "source": "./third_party/interactive-brokers",
+      "strict": false,
+      "description": "Review positions, balances, P&L, and draft trade instructions.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "meltwater",
+      "source": "./third_party/meltwater",
+      "strict": false,
+      "description": "Search media and social mentions and pull analytics.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "daloopa",
+      "source": "./third_party/daloopa",
+      "strict": false,
+      "description": "Pull source-linked fundamentals, KPIs, filings, and prices.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "excalidraw",
+      "source": "./third_party/excalidraw",
+      "strict": false,
+      "description": "Draw and export hand-drawn diagrams from chat.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "google-cloud-bigquery",
+      "source": "./third_party/google-cloud-bigquery",
+      "strict": false,
+      "description": "Explore datasets and tables and run SQL queries.",
+      "mcpServers": "./mcp.json"
+    },
+    {
+      "name": "statsig",
+      "source": "./third_party/statsig",
+      "strict": false,
+      "description": "Inspect and manage feature gates, experiments, dynamic configs, and metrics.",
+      "mcpServers": "./mcp.json"
+    }
   ]
 }

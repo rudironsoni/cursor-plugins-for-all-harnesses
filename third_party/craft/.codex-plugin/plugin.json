@@ -1,0 +1,38 @@
+{
+  "name": "craft",
+  "version": "1.0.0",
+  "description": "Search, create, and update documents and daily notes.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://www.craft.do/imagine/guide/mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "craft",
+    "craft.do",
+    "notes",
+    "documents",
+    "writing",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Craft",
+    "shortDescription": "Search, create, and update documents and daily notes.",
+    "longDescription": "Search, create, and update documents and daily notes.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Craft."
+    ],
+    "websiteURL": "https://www.craft.do/imagine/guide/mcp",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}

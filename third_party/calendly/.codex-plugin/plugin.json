@@ -1,0 +1,38 @@
+{
+  "name": "calendly",
+  "version": "1.0.0",
+  "description": "Check availability and book, cancel, or reschedule.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developer.calendly.com/calendly-mcp-server",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "calendly",
+    "scheduling",
+    "calendar",
+    "meetings",
+    "availability",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Calendly",
+    "shortDescription": "Check availability and book, cancel, or reschedule.",
+    "longDescription": "Check availability and book, cancel, or reschedule.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Calendly."
+    ],
+    "websiteURL": "https://developer.calendly.com/calendly-mcp-server",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}

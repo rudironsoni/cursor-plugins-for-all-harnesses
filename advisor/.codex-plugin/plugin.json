@@ -1,0 +1,38 @@
+{
+  "name": "advisor",
+  "version": "1.0.0",
+  "description": "Consult a stronger model at key checkpoints: before major decisions, when stuck on an error, and before declaring a task done. The advisor gets a full briefing plus the conversation transcript, returns guidance, and the main model keeps doing the work.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/advisor",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "advisor",
+    "second-opinion",
+    "grok",
+    "multi-model",
+    "subagents",
+    "review",
+    "quality"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Advisor",
+    "shortDescription": "Consult a stronger model at key checkpoints: before major decisions, when stuck on an error, and before declaring a task done.",
+    "longDescription": "Consult a stronger model at key checkpoints: before major decisions, when stuck on an error, and before declaring a task done. The advisor gets a full briefing plus the conversation transcript, returns guidance, and the main model keeps doing the work.",
+    "developerName": "Cursor",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Use Advisor."
+    ],
+    "websiteURL": "https://github.com/cursor/plugins/tree/main/advisor",
+    "logo": "./assets/avatar.png",
+    "composerIcon": "./assets/avatar.png"
+  }
+}

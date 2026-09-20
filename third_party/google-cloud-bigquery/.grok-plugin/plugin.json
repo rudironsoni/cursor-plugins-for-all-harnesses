@@ -1,0 +1,10 @@
+{
+  "name": "google-cloud-bigquery",
+  "version": "1.0.0",
+  "description": "Explore datasets and tables and run SQL queries.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

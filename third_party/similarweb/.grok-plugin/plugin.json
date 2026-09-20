@@ -1,0 +1,10 @@
+{
+  "name": "similarweb",
+  "version": "1.0.0",
+  "description": "Analyze website traffic, audiences, and competitors.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ahrefs",
+  "version": "1.0.0",
+  "description": "Research keywords, backlinks, rankings, and site health.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Ahrefs",
+  "mcpServers": "./mcp.json"
+}

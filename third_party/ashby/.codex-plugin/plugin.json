@@ -6,5 +6,34 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "mcpServers": "./mcp.json"
+  "homepage": "https://docs.ashbyhq.com/ashby-mcp-server-beta",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "ashby",
+    "ats",
+    "recruiting",
+    "hiring",
+    "candidates",
+    "interviews",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Ashby",
+    "shortDescription": "Search candidates, prep interviews, and manage pipeline tasks.",
+    "longDescription": "Search candidates, prep interviews, and manage pipeline tasks.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Ashby."
+    ],
+    "websiteURL": "https://docs.ashbyhq.com/ashby-mcp-server-beta",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
 }

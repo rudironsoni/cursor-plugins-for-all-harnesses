@@ -1,0 +1,11 @@
+{
+  "name": "guru",
+  "version": "1.0.0",
+  "description": "Search company knowledge and draft verified answers.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Guru",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "outlook-calendar",
+  "version": "1.0.0",
+  "description": "List, create, update, and cancel Microsoft Outlook calendar events.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -6,5 +6,6 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
+  "displayName": "Profound",
   "mcpServers": "./mcp.json"
 }

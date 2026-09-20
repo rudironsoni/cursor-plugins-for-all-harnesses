@@ -1,0 +1,10 @@
+{
+  "name": "coda",
+  "version": "1.0.0",
+  "description": "Search docs, read pages, and update tables.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

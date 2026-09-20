@@ -1,0 +1,10 @@
+{
+  "name": "upwork",
+  "version": "1.0.0",
+  "description": "Search talent, post jobs, and manage contracts.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

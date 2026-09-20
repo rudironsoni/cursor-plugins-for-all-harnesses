@@ -1,0 +1,38 @@
+{
+  "name": "fathom",
+  "version": "1.0.0",
+  "description": "Search meetings and pull transcripts and summaries.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developers.fathom.ai/mcp-docs",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "fathom",
+    "meetings",
+    "transcripts",
+    "summaries",
+    "notes",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Fathom",
+    "shortDescription": "Search meetings and pull transcripts and summaries.",
+    "longDescription": "Search meetings and pull transcripts and summaries.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Fathom."
+    ],
+    "websiteURL": "https://developers.fathom.ai/mcp-docs",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}

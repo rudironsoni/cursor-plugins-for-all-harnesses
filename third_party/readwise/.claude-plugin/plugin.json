@@ -1,0 +1,11 @@
+{
+  "name": "readwise",
+  "version": "1.0.0",
+  "description": "Search highlights and Reader documents, save articles.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Readwise",
+  "mcpServers": "./mcp.json"
+}

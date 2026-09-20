@@ -1,0 +1,11 @@
+{
+  "name": "sp-global",
+  "version": "1.0.0",
+  "description": "Query S&P Capital IQ financials, prices, and transcripts.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "S&P Global",
+  "mcpServers": "./mcp.json"
+}

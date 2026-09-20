@@ -1,39 +1,648 @@
 {
   "name": "cursor-plugins",
-  "interface": { "displayName": "Cursor plugins" },
+  "interface": {
+    "displayName": "Cursor plugins"
+  },
   "plugins": [
-    {"name": "teaching", "source": "./teaching", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "continual-learning", "source": "./continual-learning", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "cursor-team-kit", "source": "./cursor-team-kit", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "thermos", "source": "./thermos", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "create-plugin", "source": "./create-plugin", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "ralph-loop", "source": "./ralph-loop", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "agent-compatibility", "source": "./agent-compatibility", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "cli-for-agent", "source": "./cli-for-agent", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "pr-review-canvas", "source": "./pr-review-canvas", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "docs-canvas", "source": "./docs-canvas", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "cursor-sdk", "source": "./cursor-sdk", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "orchestrate", "source": "./orchestrate", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "pstack", "source": "./pstack", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "gmail", "source": "./third_party/gmail", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "google-drive", "source": "./third_party/google-drive", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "google-calendar", "source": "./third_party/google-calendar", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "gong", "source": "./third_party/gong", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "salesforce", "source": "./third_party/salesforce", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "playwright", "source": "./third_party/playwright", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "github", "source": "./third_party/github", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "ashby", "source": "./third_party/ashby", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "hubspot", "source": "./third_party/hubspot", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "intercom", "source": "./third_party/intercom", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "zoom", "source": "./third_party/zoom", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "x", "source": "./third_party/x", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "clay", "source": "./third_party/clay", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "circleback", "source": "./third_party/circleback", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "docusign", "source": "./third_party/docusign", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "navan", "source": "./third_party/navan", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "profound", "source": "./third_party/profound", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "juicebox", "source": "./third_party/juicebox", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "outreach", "source": "./third_party/outreach", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"},
-    {"name": "amplemarket", "source": "./third_party/amplemarket", "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Productivity"}
+    {
+      "name": "teaching",
+      "source": {
+        "source": "local",
+        "path": "./teaching"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "continual-learning",
+      "source": {
+        "source": "local",
+        "path": "./continual-learning"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cursor-team-kit",
+      "source": {
+        "source": "local",
+        "path": "./cursor-team-kit"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "thermos",
+      "source": {
+        "source": "local",
+        "path": "./thermos"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "create-plugin",
+      "source": {
+        "source": "local",
+        "path": "./create-plugin"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ralph-loop",
+      "source": {
+        "source": "local",
+        "path": "./ralph-loop"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-compatibility",
+      "source": {
+        "source": "local",
+        "path": "./agent-compatibility"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cli-for-agent",
+      "source": {
+        "source": "local",
+        "path": "./cli-for-agent"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pr-review-canvas",
+      "source": {
+        "source": "local",
+        "path": "./pr-review-canvas"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "docs-canvas",
+      "source": {
+        "source": "local",
+        "path": "./docs-canvas"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cursor-sdk",
+      "source": {
+        "source": "local",
+        "path": "./cursor-sdk"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "orchestrate",
+      "source": {
+        "source": "local",
+        "path": "./orchestrate"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pstack",
+      "source": {
+        "source": "local",
+        "path": "./pstack"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grok-voice",
+      "source": {
+        "source": "local",
+        "path": "./grok-voice"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "advisor",
+      "source": {
+        "source": "local",
+        "path": "./advisor"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gmail",
+      "source": {
+        "source": "local",
+        "path": "./third_party/gmail"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-drive",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-drive"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-calendar",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-calendar"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "gong",
+      "source": {
+        "source": "local",
+        "path": "./third_party/gong"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "salesforce",
+      "source": {
+        "source": "local",
+        "path": "./third_party/salesforce"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "playwright",
+      "source": {
+        "source": "local",
+        "path": "./third_party/playwright"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "github",
+      "source": {
+        "source": "local",
+        "path": "./third_party/github"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ashby",
+      "source": {
+        "source": "local",
+        "path": "./third_party/ashby"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "hubspot",
+      "source": {
+        "source": "local",
+        "path": "./third_party/hubspot"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "intercom",
+      "source": {
+        "source": "local",
+        "path": "./third_party/intercom"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "zoom",
+      "source": {
+        "source": "local",
+        "path": "./third_party/zoom"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "x",
+      "source": {
+        "source": "local",
+        "path": "./third_party/x"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "clay",
+      "source": {
+        "source": "local",
+        "path": "./third_party/clay"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "circleback",
+      "source": {
+        "source": "local",
+        "path": "./third_party/circleback"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "docusign",
+      "source": {
+        "source": "local",
+        "path": "./third_party/docusign"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "navan",
+      "source": {
+        "source": "local",
+        "path": "./third_party/navan"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "profound",
+      "source": {
+        "source": "local",
+        "path": "./third_party/profound"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "juicebox",
+      "source": {
+        "source": "local",
+        "path": "./third_party/juicebox"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "outreach",
+      "source": {
+        "source": "local",
+        "path": "./third_party/outreach"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "amplemarket",
+      "source": {
+        "source": "local",
+        "path": "./third_party/amplemarket"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "klaviyo",
+      "source": {
+        "source": "local",
+        "path": "./third_party/klaviyo"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "customer-io",
+      "source": {
+        "source": "local",
+        "path": "./third_party/customer-io"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mailerlite",
+      "source": {
+        "source": "local",
+        "path": "./third_party/mailerlite"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "brevo",
+      "source": {
+        "source": "local",
+        "path": "./third_party/brevo"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "typeform",
+      "source": {
+        "source": "local",
+        "path": "./third_party/typeform"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "jotform",
+      "source": {
+        "source": "local",
+        "path": "./third_party/jotform"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "semrush",
+      "source": {
+        "source": "local",
+        "path": "./third_party/semrush"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ahrefs",
+      "source": {
+        "source": "local",
+        "path": "./third_party/ahrefs"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "godaddy",
+      "source": {
+        "source": "local",
+        "path": "./third_party/godaddy"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "upwork",
+      "source": {
+        "source": "local",
+        "path": "./third_party/upwork"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "workable",
+      "source": {
+        "source": "local",
+        "path": "./third_party/workable"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "brex",
+      "source": {
+        "source": "local",
+        "path": "./third_party/brex"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mercury",
+      "source": {
+        "source": "local",
+        "path": "./third_party/mercury"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "todoist",
+      "source": {
+        "source": "local",
+        "path": "./third_party/todoist"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "calendly",
+      "source": {
+        "source": "local",
+        "path": "./third_party/calendly"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "smartsheet",
+      "source": {
+        "source": "local",
+        "path": "./third_party/smartsheet"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "wrike",
+      "source": {
+        "source": "local",
+        "path": "./third_party/wrike"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "coda",
+      "source": {
+        "source": "local",
+        "path": "./third_party/coda"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "guru",
+      "source": {
+        "source": "local",
+        "path": "./third_party/guru"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "fireflies",
+      "source": {
+        "source": "local",
+        "path": "./third_party/fireflies"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "otter",
+      "source": {
+        "source": "local",
+        "path": "./third_party/otter"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "fathom",
+      "source": {
+        "source": "local",
+        "path": "./third_party/fathom"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "craft",
+      "source": {
+        "source": "local",
+        "path": "./third_party/craft"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mem",
+      "source": {
+        "source": "local",
+        "path": "./third_party/mem"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "readwise",
+      "source": {
+        "source": "local",
+        "path": "./third_party/readwise"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "similarweb",
+      "source": {
+        "source": "local",
+        "path": "./third_party/similarweb"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "xero",
+      "source": {
+        "source": "local",
+        "path": "./third_party/xero"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "outlook",
+      "source": {
+        "source": "local",
+        "path": "./third_party/outlook"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "outlook-calendar",
+      "source": {
+        "source": "local",
+        "path": "./third_party/outlook-calendar"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "onedrive",
+      "source": {
+        "source": "local",
+        "path": "./third_party/onedrive"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "sharepoint",
+      "source": {
+        "source": "local",
+        "path": "./third_party/sharepoint"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "teams",
+      "source": {
+        "source": "local",
+        "path": "./third_party/teams"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "finance",
+      "source": {
+        "source": "local",
+        "path": "./third_party/finance"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "x-ads",
+      "source": {
+        "source": "local",
+        "path": "./third_party/x-ads"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "attio",
+      "source": {
+        "source": "local",
+        "path": "./third_party/attio"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "hunter",
+      "source": {
+        "source": "local",
+        "path": "./third_party/hunter"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "gamma",
+      "source": {
+        "source": "local",
+        "path": "./third_party/gamma"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "webull",
+      "source": {
+        "source": "local",
+        "path": "./third_party/webull"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "sp-global",
+      "source": {
+        "source": "local",
+        "path": "./third_party/sp-global"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "interactive-brokers",
+      "source": {
+        "source": "local",
+        "path": "./third_party/interactive-brokers"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "meltwater",
+      "source": {
+        "source": "local",
+        "path": "./third_party/meltwater"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "daloopa",
+      "source": {
+        "source": "local",
+        "path": "./third_party/daloopa"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "excalidraw",
+      "source": {
+        "source": "local",
+        "path": "./third_party/excalidraw"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-cloud-bigquery",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-cloud-bigquery"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "statsig",
+      "source": {
+        "source": "local",
+        "path": "./third_party/statsig"
+      },
+      "category": "Productivity"
+    }
   ]
 }

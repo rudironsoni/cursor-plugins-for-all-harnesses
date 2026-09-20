@@ -1,0 +1,11 @@
+{
+  "name": "xero",
+  "version": "1.0.0",
+  "description": "Read and write invoices, contacts, reports, and payroll.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Xero",
+  "mcpServers": "./mcp.json"
+}

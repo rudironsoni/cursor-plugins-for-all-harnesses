@@ -5,5 +5,7 @@
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"
-  }
+  },
+  "displayName": "PR Review Canvas",
+  "skills": "./skills/"
 }

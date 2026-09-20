@@ -1,0 +1,10 @@
+{
+  "name": "fathom",
+  "version": "1.0.0",
+  "description": "Search meetings and pull transcripts and summaries.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

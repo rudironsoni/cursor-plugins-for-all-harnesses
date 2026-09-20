@@ -1,0 +1,39 @@
+{
+  "name": "upwork",
+  "version": "1.0.0",
+  "description": "Search talent, post jobs, and manage contracts.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://www.upwork.com/ai/mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "upwork",
+    "freelance",
+    "hiring",
+    "jobs",
+    "contracts",
+    "proposals",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Upwork",
+    "shortDescription": "Search talent, post jobs, and manage contracts.",
+    "longDescription": "Search talent, post jobs, and manage contracts.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Upwork."
+    ],
+    "websiteURL": "https://www.upwork.com/ai/mcp",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}

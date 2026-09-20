@@ -6,5 +6,33 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "mcpServers": "./mcp.json"
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/gmail",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "gmail",
+    "email",
+    "google",
+    "mcp",
+    "workspace"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Gmail",
+    "shortDescription": "Search, read, draft, and manage email.",
+    "longDescription": "Search, read, draft, and manage email.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Gmail."
+    ],
+    "websiteURL": "https://github.com/cursor/plugins/tree/main/third_party/gmail",
+    "logo": "./assets/logo.svg",
+    "composerIcon": "./assets/logo.svg"
+  }
 }

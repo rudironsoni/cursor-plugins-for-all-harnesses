@@ -6,5 +6,6 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
+  "displayName": "Ashby",
   "mcpServers": "./mcp.json"
 }

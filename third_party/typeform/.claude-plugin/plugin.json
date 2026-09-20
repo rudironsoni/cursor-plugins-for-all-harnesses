@@ -1,0 +1,11 @@
+{
+  "name": "typeform",
+  "version": "1.0.0",
+  "description": "Build forms, analyze responses, and manage contacts.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Typeform",
+  "mcpServers": "./mcp.json"
+}

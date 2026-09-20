@@ -1,0 +1,11 @@
+{
+  "name": "excalidraw",
+  "version": "1.0.1",
+  "description": "Draw and export hand-drawn diagrams from chat.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Excalidraw",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "gamma",
+  "version": "1.0.0",
+  "description": "Generate presentations, documents, and webpages.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -1,6 +1,6 @@
 # Cursor plugins
 
-Fork of [cursor/plugins](https://github.com/cursor/plugins). Each plugin folder is installable on Claude Code, Grok, Codex, and OpenCode. Skill and MCP files stay where they are.
+Fork of [cursor/plugins](https://github.com/cursor/plugins). Each plugin folder is installable on Claude Code, Grok, Codex, ChatGPT, and OpenCode. Skill and MCP files stay where they are.
 
 ```sh
 claude plugin marketplace add rudironsoni/cursor-plugins-for-all-harnesses
@@ -13,17 +13,36 @@ codex plugin marketplace add rudironsoni/cursor-plugins-for-all-harnesses
 codex plugin install teaching
 ```
 
+## ChatGPT Web
+
+Codex manifests live in `.codex-plugin/plugin.json` and include a full `interface` object. The GitHub marketplace is `.agents/plugins/marketplace.json`.
+
+ChatGPT Web runs HTTPS MCP as a ChatGPT **app**, not as a bundled `mcp.json`. GitHub marketplace import of `mcpServers` is Desktop only, even for HTTPS URLs.
+
+- First-party skill plugins (for example `teaching`) run on Web after install.
+- These plugins ship `.app.json` with ChatGPT connector ids: `gmail`, `google-drive`, `google-calendar`, `github`, `teams`, `sharepoint`, `outlook`, `outlook-calendar`, `zoom`. Connect the app, then use the plugin in Work.
+- Every other HTTPS MCP URL is listed in `scripts/chatgpt-https-mcps.json`. In ChatGPT, turn on Developer mode, open [Plugins](https://chatgpt.com/plugins), press plus, and paste the URL. After ChatGPT returns an `asdk_app_…` id, put it in that plugin's `.app.json`.
+- `playwright` and `xero` are local stdio servers. They do not run on ChatGPT Web.
+
+## OpenCode
+
 OpenCode has no marketplace. Every plugin ships an `opencode.js`. After you have the plugin folder, add it in `opencode.json`:
 
 ```json
 { "plugin": ["./teaching/opencode.js"] }
 ```
 
-MCP plugins (everything under `third_party/`) register their server via the `config` hook, so there is nothing else to configure. Restart OpenCode after enabling, because MCP registration happens at startup. Credentials use `{env:VAR}` interpolation, for example `GITHUB_PERSONAL_ACCESS_TOKEN` for `third_party/github`. Services that use OAuth client credentials (`docusign`, `gong`, `hubspot`, `salesforce`, `x`, `x-ads`, `zoom`) register an `oauth` block; run `opencode mcp auth <server>` to complete the flow.
+MCP plugins register their server via the `config` hook. Restart OpenCode after enabling. Credentials are read from the process environment (`${VAR}` in `mcp.json`). OAuth servers (`docusign`, `gong`, `hubspot`, `salesforce`, `x`, `x-ads`, `zoom`) register an `oauth` client id only; run `opencode mcp auth <server>` to complete the flow.
 
-Skill plugins (the first-party folders such as `teaching/`, plus `advisor`) keep their skills in `./skills/`. Copy or symlink them into `.opencode/skills`, `.claude/skills`, or `.agents/skills` for discovery.
+Skill plugins keep skills in `./skills/`. Point OpenCode at them:
 
-Or use the community installer, which reads this repo's Claude catalog:
+```json
+{ "skills": { "paths": ["./teaching/skills"] } }
+```
+
+Or copy or symlink into `.opencode/skills`.
+
+Community installer (reads the Claude catalog):
 
 ```sh
 npx opencode-market add rudironsoni/cursor-plugins-for-all-harnesses

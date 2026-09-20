@@ -1,0 +1,10 @@
+{
+  "name": "brevo",
+  "version": "1.0.0",
+  "description": "Manage contacts, email and SMS campaigns, and CRM deals.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "jotform",
+  "version": "1.0.0",
+  "description": "Create and edit forms, then read submissions.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Jotform",
+  "mcpServers": "./mcp.json"
+}

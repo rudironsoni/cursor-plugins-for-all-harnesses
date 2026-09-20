@@ -1,0 +1,11 @@
+{
+  "name": "mem",
+  "version": "1.0.0",
+  "description": "Capture, search, and organize notes and collections.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Mem",
+  "mcpServers": "./mcp.json"
+}

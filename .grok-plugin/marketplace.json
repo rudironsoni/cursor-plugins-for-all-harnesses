@@ -1,40 +1,729 @@
 {
   "name": "cursor-plugins",
-  "description": "Cursor plugins.",
-  "owner": { "name": "Rudimar Ronsoni" },
+  "description": "Cursor plugins packaged for Claude Code, Grok Build, Codex, ChatGPT, and OpenCode.",
+  "owner": {
+    "name": "Rudimar Ronsoni"
+  },
   "plugins": [
-    {"name": "teaching", "source": "./teaching"},
-    {"name": "continual-learning", "source": "./continual-learning"},
-    {"name": "cursor-team-kit", "source": "./cursor-team-kit"},
-    {"name": "thermos", "source": "./thermos"},
-    {"name": "create-plugin", "source": "./create-plugin"},
-    {"name": "ralph-loop", "source": "./ralph-loop"},
-    {"name": "agent-compatibility", "source": "./agent-compatibility"},
-    {"name": "cli-for-agent", "source": "./cli-for-agent"},
-    {"name": "pr-review-canvas", "source": "./pr-review-canvas"},
-    {"name": "docs-canvas", "source": "./docs-canvas"},
-    {"name": "cursor-sdk", "source": "./cursor-sdk"},
-    {"name": "orchestrate", "source": "./orchestrate"},
-    {"name": "pstack", "source": "./pstack"},
-    {"name": "gmail", "source": "./third_party/gmail"},
-    {"name": "google-drive", "source": "./third_party/google-drive"},
-    {"name": "google-calendar", "source": "./third_party/google-calendar"},
-    {"name": "gong", "source": "./third_party/gong"},
-    {"name": "salesforce", "source": "./third_party/salesforce"},
-    {"name": "playwright", "source": "./third_party/playwright"},
-    {"name": "github", "source": "./third_party/github"},
-    {"name": "ashby", "source": "./third_party/ashby"},
-    {"name": "hubspot", "source": "./third_party/hubspot"},
-    {"name": "intercom", "source": "./third_party/intercom"},
-    {"name": "zoom", "source": "./third_party/zoom"},
-    {"name": "x", "source": "./third_party/x"},
-    {"name": "clay", "source": "./third_party/clay"},
-    {"name": "circleback", "source": "./third_party/circleback"},
-    {"name": "docusign", "source": "./third_party/docusign"},
-    {"name": "navan", "source": "./third_party/navan"},
-    {"name": "profound", "source": "./third_party/profound"},
-    {"name": "juicebox", "source": "./third_party/juicebox"},
-    {"name": "outreach", "source": "./third_party/outreach"},
-    {"name": "amplemarket", "source": "./third_party/amplemarket"}
+    {
+      "name": "teaching",
+      "description": "Skill mapping, practice plans, and learning retrospectives.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./teaching"
+      }
+    },
+    {
+      "name": "continual-learning",
+      "description": "Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./continual-learning"
+      }
+    },
+    {
+      "name": "cursor-team-kit",
+      "description": "Internal team workflows for CI, code review, shipping, local automation, and verification.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./cursor-team-kit"
+      }
+    },
+    {
+      "name": "thermos",
+      "description": "Thermo-nuclear branch review: deep security/correctness audits, harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional merge-ready PR flows.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./thermos"
+      }
+    },
+    {
+      "name": "create-plugin",
+      "description": "Scaffold and validate new agent plugins.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./create-plugin"
+      }
+    },
+    {
+      "name": "ralph-loop",
+      "description": "Iterative self-referential AI loops using the Ralph Wiggum technique.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./ralph-loop"
+      }
+    },
+    {
+      "name": "agent-compatibility",
+      "description": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./agent-compatibility"
+      }
+    },
+    {
+      "name": "cli-for-agent",
+      "description": "Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./cli-for-agent"
+      }
+    },
+    {
+      "name": "pr-review-canvas",
+      "description": "Render PR diffs as review canvases grouped by importance.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./pr-review-canvas"
+      }
+    },
+    {
+      "name": "docs-canvas",
+      "description": "Render documentation as a navigable canvas.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./docs-canvas"
+      }
+    },
+    {
+      "name": "cursor-sdk",
+      "description": "Build apps, scripts, and automations with the TypeScript SDK.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./cursor-sdk"
+      }
+    },
+    {
+      "name": "orchestrate",
+      "description": "Fan large tasks out across parallel cloud agents with planners, workers, verifiers, and structured handoffs.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./orchestrate"
+      }
+    },
+    {
+      "name": "pstack",
+      "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./pstack"
+      }
+    },
+    {
+      "name": "grok-voice",
+      "description": "Add Grok voice to an app: realtime speech-to-speech, speech-to-text dictation, text-to-speech read-aloud, and a log-driven fix loop for voice sessions.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./grok-voice"
+      }
+    },
+    {
+      "name": "advisor",
+      "description": "Consult a stronger model before major decisions, when stuck, and before declaring done.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./advisor"
+      }
+    },
+    {
+      "name": "gmail",
+      "description": "Search, read, draft, and manage email.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/gmail"
+      }
+    },
+    {
+      "name": "google-drive",
+      "description": "Search, read, create, and share files.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/google-drive"
+      }
+    },
+    {
+      "name": "google-calendar",
+      "description": "Search events and schedule meetings.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/google-calendar"
+      }
+    },
+    {
+      "name": "gong",
+      "description": "Pull account summaries, deal insights, and call briefs.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/gong"
+      }
+    },
+    {
+      "name": "salesforce",
+      "description": "Query, create, and update records in your org.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/salesforce"
+      }
+    },
+    {
+      "name": "playwright",
+      "description": "Navigate, click, screenshot, and test in a real browser.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/playwright"
+      }
+    },
+    {
+      "name": "github",
+      "description": "Manage repos, issues, pull requests, and Actions.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/github"
+      }
+    },
+    {
+      "name": "ashby",
+      "description": "Search candidates, prep interviews, and manage pipeline tasks.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/ashby"
+      }
+    },
+    {
+      "name": "hubspot",
+      "description": "Search and update contacts, companies, deals, and tickets.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/hubspot"
+      }
+    },
+    {
+      "name": "intercom",
+      "description": "Search conversations, contacts, and Help Center articles.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/intercom"
+      }
+    },
+    {
+      "name": "zoom",
+      "description": "Search meetings, pull transcripts, and work with Zoom Docs.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/zoom"
+      }
+    },
+    {
+      "name": "x",
+      "description": "Search posts, read timelines, pull trends, manage bookmarks, and access X Chat.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/x"
+      }
+    },
+    {
+      "name": "clay",
+      "description": "Enrich people and companies, run AI research agents.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/clay"
+      }
+    },
+    {
+      "name": "circleback",
+      "description": "Search meetings, transcripts, action items, and emails.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/circleback"
+      }
+    },
+    {
+      "name": "docusign",
+      "description": "Manage envelopes, templates, workflows, and agreements.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/docusign"
+      }
+    },
+    {
+      "name": "navan",
+      "description": "Query expenses, travel bookings, policies, and cards.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/navan"
+      }
+    },
+    {
+      "name": "profound",
+      "description": "Track AI visibility, sentiment, and citations.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/profound"
+      }
+    },
+    {
+      "name": "juicebox",
+      "description": "Query recruiting analytics, shortlists, and sourcing agents.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/juicebox"
+      }
+    },
+    {
+      "name": "outreach",
+      "description": "Search sequences, prospects, and Kaia meetings.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/outreach"
+      }
+    },
+    {
+      "name": "amplemarket",
+      "description": "Search people and companies, enrich leads, run sequences.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/amplemarket"
+      }
+    },
+    {
+      "name": "klaviyo",
+      "description": "Manage profiles, segments, campaigns, and flows.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/klaviyo"
+      }
+    },
+    {
+      "name": "customer-io",
+      "description": "Build campaigns, manage segments, and query people.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/customer-io"
+      }
+    },
+    {
+      "name": "mailerlite",
+      "description": "Manage subscribers, groups, campaigns, and automations.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/mailerlite"
+      }
+    },
+    {
+      "name": "brevo",
+      "description": "Manage contacts, email and SMS campaigns, and CRM deals.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/brevo"
+      }
+    },
+    {
+      "name": "typeform",
+      "description": "Build forms, analyze responses, and manage contacts.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/typeform"
+      }
+    },
+    {
+      "name": "jotform",
+      "description": "Create and edit forms, then read submissions.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/jotform"
+      }
+    },
+    {
+      "name": "semrush",
+      "description": "Research keywords, backlinks, traffic, and competitors.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/semrush"
+      }
+    },
+    {
+      "name": "ahrefs",
+      "description": "Research keywords, backlinks, rankings, and site health.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/ahrefs"
+      }
+    },
+    {
+      "name": "godaddy",
+      "description": "Brainstorm domain names and check availability.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/godaddy"
+      }
+    },
+    {
+      "name": "upwork",
+      "description": "Search talent, post jobs, and manage contracts.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/upwork"
+      }
+    },
+    {
+      "name": "workable",
+      "description": "Search candidates, move pipelines, and manage HR records.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/workable"
+      }
+    },
+    {
+      "name": "brex",
+      "description": "Query expenses, receipts, bills, cards, and travel.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/brex"
+      }
+    },
+    {
+      "name": "mercury",
+      "description": "Read balances, transactions, statements, and cards.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/mercury"
+      }
+    },
+    {
+      "name": "todoist",
+      "description": "Create, find, and complete tasks and projects.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/todoist"
+      }
+    },
+    {
+      "name": "calendly",
+      "description": "Check availability and book, cancel, or reschedule.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/calendly"
+      }
+    },
+    {
+      "name": "smartsheet",
+      "description": "Query and update sheets, rows, and workspaces.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/smartsheet"
+      }
+    },
+    {
+      "name": "wrike",
+      "description": "Search projects, create tasks, and post comments.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/wrike"
+      }
+    },
+    {
+      "name": "coda",
+      "description": "Search docs, read pages, and update tables.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/coda"
+      }
+    },
+    {
+      "name": "guru",
+      "description": "Search company knowledge and draft verified answers.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/guru"
+      }
+    },
+    {
+      "name": "fireflies",
+      "description": "Search meeting transcripts, summaries, and action items.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/fireflies"
+      }
+    },
+    {
+      "name": "otter",
+      "description": "Search meeting history and pull full transcripts.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/otter"
+      }
+    },
+    {
+      "name": "fathom",
+      "description": "Search meetings and pull transcripts and summaries.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/fathom"
+      }
+    },
+    {
+      "name": "craft",
+      "description": "Search, create, and update documents and daily notes.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/craft"
+      }
+    },
+    {
+      "name": "mem",
+      "description": "Capture, search, and organize notes and collections.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/mem"
+      }
+    },
+    {
+      "name": "readwise",
+      "description": "Search highlights and Reader documents, save articles.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/readwise"
+      }
+    },
+    {
+      "name": "similarweb",
+      "description": "Analyze website traffic, audiences, and competitors.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/similarweb"
+      }
+    },
+    {
+      "name": "xero",
+      "description": "Read and write invoices, contacts, reports, and payroll.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/xero"
+      }
+    },
+    {
+      "name": "outlook",
+      "description": "Search, read, and send Microsoft Outlook email, and look up contacts.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/outlook"
+      }
+    },
+    {
+      "name": "outlook-calendar",
+      "description": "List, create, update, and cancel Microsoft Outlook calendar events.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/outlook-calendar"
+      }
+    },
+    {
+      "name": "onedrive",
+      "description": "Browse, search, and read Microsoft OneDrive files.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/onedrive"
+      }
+    },
+    {
+      "name": "sharepoint",
+      "description": "Search and read Microsoft SharePoint sites, document libraries, files, and lists.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/sharepoint"
+      }
+    },
+    {
+      "name": "teams",
+      "description": "Search, read, and send Microsoft Teams chats and channel messages.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/teams"
+      }
+    },
+    {
+      "name": "finance",
+      "description": "Securely connect your accounts so Grok can help with questions about your spending, subscriptions, balances, and investments.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/finance"
+      }
+    },
+    {
+      "name": "x-ads",
+      "description": "Manage ad campaigns, create ads, track conversions, and pull performance stats.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/x-ads"
+      }
+    },
+    {
+      "name": "attio",
+      "description": "Search and update CRM records, lists, notes, and tasks.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/attio"
+      }
+    },
+    {
+      "name": "hunter",
+      "description": "Find and verify emails, discover companies, and save leads.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/hunter"
+      }
+    },
+    {
+      "name": "gamma",
+      "description": "Generate presentations, documents, and webpages.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/gamma"
+      }
+    },
+    {
+      "name": "webull",
+      "description": "View accounts, positions, orders, watchlists, and market data.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/webull"
+      }
+    },
+    {
+      "name": "sp-global",
+      "description": "Query S&P Capital IQ financials, prices, and transcripts.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/sp-global"
+      }
+    },
+    {
+      "name": "interactive-brokers",
+      "description": "Review positions, balances, P&L, and draft trade instructions.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/interactive-brokers"
+      }
+    },
+    {
+      "name": "meltwater",
+      "description": "Search media and social mentions and pull analytics.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/meltwater"
+      }
+    },
+    {
+      "name": "daloopa",
+      "description": "Pull source-linked fundamentals, KPIs, filings, and prices.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/daloopa"
+      }
+    },
+    {
+      "name": "excalidraw",
+      "description": "Draw and export hand-drawn diagrams from chat.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/excalidraw"
+      }
+    },
+    {
+      "name": "google-cloud-bigquery",
+      "description": "Explore datasets and tables and run SQL queries.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/google-cloud-bigquery"
+      }
+    },
+    {
+      "name": "statsig",
+      "description": "Inspect and manage feature gates, experiments, dynamic configs, and metrics.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/statsig"
+      }
+    }
   ]
 }

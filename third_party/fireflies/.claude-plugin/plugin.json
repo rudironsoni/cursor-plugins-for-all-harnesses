@@ -1,0 +1,11 @@
+{
+  "name": "fireflies",
+  "version": "1.0.0",
+  "description": "Search meeting transcripts, summaries, and action items.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Fireflies",
+  "mcpServers": "./mcp.json"
+}

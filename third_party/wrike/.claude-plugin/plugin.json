@@ -1,0 +1,11 @@
+{
+  "name": "wrike",
+  "version": "1.0.0",
+  "description": "Search projects, create tasks, and post comments.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "displayName": "Wrike",
+  "mcpServers": "./mcp.json"
+}

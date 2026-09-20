@@ -1,0 +1,10 @@
+{
+  "name": "craft",
+  "version": "1.0.0",
+  "description": "Search, create, and update documents and daily notes.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}

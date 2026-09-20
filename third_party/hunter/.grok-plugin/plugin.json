@@ -1,0 +1,10 @@
+{
+  "name": "hunter",
+  "version": "1.0.0",
+  "description": "Find and verify emails, discover companies, and save leads.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}
