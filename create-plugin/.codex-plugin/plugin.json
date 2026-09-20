@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://github.com/cursor/plugins",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/create-plugin",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "create-plugin",
@@ -28,7 +28,7 @@
     "defaultPrompt": [
       "Use Create Plugin."
     ],
-    "websiteURL": "https://github.com/cursor/plugins",
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/create-plugin",
     "logo": "./assets/avatar.png",
     "composerIcon": "./assets/avatar.png"
   }

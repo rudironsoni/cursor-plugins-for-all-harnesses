@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://github.com/cursor/plugins/tree/main/cursor-sdk",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/cursor-sdk",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "cursor-sdk",
@@ -33,6 +33,6 @@
     "defaultPrompt": [
       "Use Cursor SDK."
     ],
-    "websiteURL": "https://github.com/cursor/plugins/tree/main/cursor-sdk"
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/cursor-sdk"
   }
 }

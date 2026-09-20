@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://developers.outreach.io/mcp-server",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/outreach",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "outreach",
@@ -32,7 +32,7 @@
     "defaultPrompt": [
       "Use Outreach."
     ],
-    "websiteURL": "https://developers.outreach.io/mcp-server",
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/outreach",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png"
   }

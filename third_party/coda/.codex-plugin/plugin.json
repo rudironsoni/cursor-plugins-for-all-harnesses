@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://help.superhuman.com/hc/en-us/articles/46210076980365-Connect-to-the-Coda-MCP",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/coda",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "coda",
@@ -31,7 +31,7 @@
     "defaultPrompt": [
       "Use Coda."
     ],
-    "websiteURL": "https://help.superhuman.com/hc/en-us/articles/46210076980365-Connect-to-the-Coda-MCP",
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/coda",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png"
   }

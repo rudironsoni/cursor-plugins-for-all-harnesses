@@ -7,640 +7,1120 @@
     {
       "name": "teaching",
       "source": {
-        "source": "local",
-        "path": "./teaching"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./teaching",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Productivity"
     },
     {
       "name": "continual-learning",
       "source": {
-        "source": "local",
-        "path": "./continual-learning"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./continual-learning",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "cursor-team-kit",
       "source": {
-        "source": "local",
-        "path": "./cursor-team-kit"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./cursor-team-kit",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "thermos",
       "source": {
-        "source": "local",
-        "path": "./thermos"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./thermos",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "create-plugin",
       "source": {
-        "source": "local",
-        "path": "./create-plugin"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./create-plugin",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "ralph-loop",
       "source": {
-        "source": "local",
-        "path": "./ralph-loop"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./ralph-loop",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "agent-compatibility",
       "source": {
-        "source": "local",
-        "path": "./agent-compatibility"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./agent-compatibility",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "cli-for-agent",
       "source": {
-        "source": "local",
-        "path": "./cli-for-agent"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./cli-for-agent",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "pr-review-canvas",
       "source": {
-        "source": "local",
-        "path": "./pr-review-canvas"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./pr-review-canvas",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "docs-canvas",
       "source": {
-        "source": "local",
-        "path": "./docs-canvas"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./docs-canvas",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "cursor-sdk",
       "source": {
-        "source": "local",
-        "path": "./cursor-sdk"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./cursor-sdk",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "orchestrate",
       "source": {
-        "source": "local",
-        "path": "./orchestrate"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./orchestrate",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "pstack",
       "source": {
-        "source": "local",
-        "path": "./pstack"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./pstack",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "grok-voice",
       "source": {
-        "source": "local",
-        "path": "./grok-voice"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./grok-voice",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "advisor",
       "source": {
-        "source": "local",
-        "path": "./advisor"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./advisor",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_FIRST_USE"
       },
       "category": "Developer Tools"
     },
     {
       "name": "gmail",
       "source": {
-        "source": "local",
-        "path": "./third_party/gmail"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/gmail",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "google-drive",
       "source": {
-        "source": "local",
-        "path": "./third_party/google-drive"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/google-drive",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "google-calendar",
       "source": {
-        "source": "local",
-        "path": "./third_party/google-calendar"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/google-calendar",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "gong",
       "source": {
-        "source": "local",
-        "path": "./third_party/gong"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/gong",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "salesforce",
       "source": {
-        "source": "local",
-        "path": "./third_party/salesforce"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/salesforce",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "playwright",
       "source": {
-        "source": "local",
-        "path": "./third_party/playwright"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/playwright",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "github",
       "source": {
-        "source": "local",
-        "path": "./third_party/github"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/github",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "ashby",
       "source": {
-        "source": "local",
-        "path": "./third_party/ashby"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/ashby",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "hubspot",
       "source": {
-        "source": "local",
-        "path": "./third_party/hubspot"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/hubspot",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "intercom",
       "source": {
-        "source": "local",
-        "path": "./third_party/intercom"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/intercom",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "zoom",
       "source": {
-        "source": "local",
-        "path": "./third_party/zoom"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/zoom",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "x",
       "source": {
-        "source": "local",
-        "path": "./third_party/x"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/x",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "clay",
       "source": {
-        "source": "local",
-        "path": "./third_party/clay"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/clay",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "circleback",
       "source": {
-        "source": "local",
-        "path": "./third_party/circleback"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/circleback",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "docusign",
       "source": {
-        "source": "local",
-        "path": "./third_party/docusign"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/docusign",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "navan",
       "source": {
-        "source": "local",
-        "path": "./third_party/navan"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/navan",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "profound",
       "source": {
-        "source": "local",
-        "path": "./third_party/profound"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/profound",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "juicebox",
       "source": {
-        "source": "local",
-        "path": "./third_party/juicebox"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/juicebox",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "outreach",
       "source": {
-        "source": "local",
-        "path": "./third_party/outreach"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/outreach",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "amplemarket",
       "source": {
-        "source": "local",
-        "path": "./third_party/amplemarket"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/amplemarket",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "klaviyo",
       "source": {
-        "source": "local",
-        "path": "./third_party/klaviyo"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/klaviyo",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "customer-io",
       "source": {
-        "source": "local",
-        "path": "./third_party/customer-io"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/customer-io",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "mailerlite",
       "source": {
-        "source": "local",
-        "path": "./third_party/mailerlite"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/mailerlite",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "brevo",
       "source": {
-        "source": "local",
-        "path": "./third_party/brevo"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/brevo",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "typeform",
       "source": {
-        "source": "local",
-        "path": "./third_party/typeform"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/typeform",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "jotform",
       "source": {
-        "source": "local",
-        "path": "./third_party/jotform"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/jotform",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "semrush",
       "source": {
-        "source": "local",
-        "path": "./third_party/semrush"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/semrush",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "ahrefs",
       "source": {
-        "source": "local",
-        "path": "./third_party/ahrefs"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/ahrefs",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "godaddy",
       "source": {
-        "source": "local",
-        "path": "./third_party/godaddy"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/godaddy",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "upwork",
       "source": {
-        "source": "local",
-        "path": "./third_party/upwork"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/upwork",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "workable",
       "source": {
-        "source": "local",
-        "path": "./third_party/workable"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/workable",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "brex",
       "source": {
-        "source": "local",
-        "path": "./third_party/brex"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/brex",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "mercury",
       "source": {
-        "source": "local",
-        "path": "./third_party/mercury"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/mercury",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "todoist",
       "source": {
-        "source": "local",
-        "path": "./third_party/todoist"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/todoist",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "calendly",
       "source": {
-        "source": "local",
-        "path": "./third_party/calendly"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/calendly",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "smartsheet",
       "source": {
-        "source": "local",
-        "path": "./third_party/smartsheet"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/smartsheet",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "wrike",
       "source": {
-        "source": "local",
-        "path": "./third_party/wrike"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/wrike",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "coda",
       "source": {
-        "source": "local",
-        "path": "./third_party/coda"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/coda",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "guru",
       "source": {
-        "source": "local",
-        "path": "./third_party/guru"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/guru",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "fireflies",
       "source": {
-        "source": "local",
-        "path": "./third_party/fireflies"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/fireflies",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "otter",
       "source": {
-        "source": "local",
-        "path": "./third_party/otter"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/otter",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "fathom",
       "source": {
-        "source": "local",
-        "path": "./third_party/fathom"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/fathom",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "craft",
       "source": {
-        "source": "local",
-        "path": "./third_party/craft"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/craft",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "mem",
       "source": {
-        "source": "local",
-        "path": "./third_party/mem"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/mem",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "readwise",
       "source": {
-        "source": "local",
-        "path": "./third_party/readwise"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/readwise",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "similarweb",
       "source": {
-        "source": "local",
-        "path": "./third_party/similarweb"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/similarweb",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "xero",
       "source": {
-        "source": "local",
-        "path": "./third_party/xero"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/xero",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "outlook",
       "source": {
-        "source": "local",
-        "path": "./third_party/outlook"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/outlook",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "outlook-calendar",
       "source": {
-        "source": "local",
-        "path": "./third_party/outlook-calendar"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/outlook-calendar",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "onedrive",
       "source": {
-        "source": "local",
-        "path": "./third_party/onedrive"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/onedrive",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "sharepoint",
       "source": {
-        "source": "local",
-        "path": "./third_party/sharepoint"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/sharepoint",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "teams",
       "source": {
-        "source": "local",
-        "path": "./third_party/teams"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/teams",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "finance",
       "source": {
-        "source": "local",
-        "path": "./third_party/finance"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/finance",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "x-ads",
       "source": {
-        "source": "local",
-        "path": "./third_party/x-ads"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/x-ads",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "attio",
       "source": {
-        "source": "local",
-        "path": "./third_party/attio"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/attio",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "hunter",
       "source": {
-        "source": "local",
-        "path": "./third_party/hunter"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/hunter",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "gamma",
       "source": {
-        "source": "local",
-        "path": "./third_party/gamma"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/gamma",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "webull",
       "source": {
-        "source": "local",
-        "path": "./third_party/webull"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/webull",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "sp-global",
       "source": {
-        "source": "local",
-        "path": "./third_party/sp-global"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/sp-global",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "interactive-brokers",
       "source": {
-        "source": "local",
-        "path": "./third_party/interactive-brokers"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/interactive-brokers",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "meltwater",
       "source": {
-        "source": "local",
-        "path": "./third_party/meltwater"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/meltwater",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "daloopa",
       "source": {
-        "source": "local",
-        "path": "./third_party/daloopa"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/daloopa",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "excalidraw",
       "source": {
-        "source": "local",
-        "path": "./third_party/excalidraw"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/excalidraw",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "google-cloud-bigquery",
       "source": {
-        "source": "local",
-        "path": "./third_party/google-cloud-bigquery"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/google-cloud-bigquery",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     },
     {
       "name": "statsig",
       "source": {
-        "source": "local",
-        "path": "./third_party/statsig"
+        "source": "git-subdir",
+        "url": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git",
+        "path": "./third_party/statsig",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
     }

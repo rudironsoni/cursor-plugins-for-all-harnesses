@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://github.com/microsoft/playwright-mcp",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/playwright",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "playwright",
@@ -31,8 +31,6 @@
     "defaultPrompt": [
       "Use Playwright."
     ],
-    "websiteURL": "https://github.com/microsoft/playwright-mcp",
-    "logo": "./assets/logo.svg",
-    "composerIcon": "./assets/logo.svg"
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/playwright"
   }
 }

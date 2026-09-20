@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://github.com/cursor/plugins/tree/main/orchestrate",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/orchestrate",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "orchestrate",
@@ -31,7 +31,7 @@
     "defaultPrompt": [
       "Use Orchestrate."
     ],
-    "websiteURL": "https://github.com/cursor/plugins/tree/main/orchestrate",
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/orchestrate",
     "logo": "./assets/avatar.png",
     "composerIcon": "./assets/avatar.png"
   }

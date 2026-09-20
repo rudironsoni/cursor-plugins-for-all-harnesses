@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/google-cloud-bigquery",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "google cloud bigquery",
@@ -33,7 +33,7 @@
     "defaultPrompt": [
       "Use Google Cloud BigQuery."
     ],
-    "websiteURL": "https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp",
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/google-cloud-bigquery",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png"
   }

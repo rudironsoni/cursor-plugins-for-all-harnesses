@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://grok.com/connectors",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/finance",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "finance",
@@ -33,8 +33,6 @@
     "defaultPrompt": [
       "Use Finance."
     ],
-    "websiteURL": "https://grok.com/connectors",
-    "logo": "./assets/logo.svg",
-    "composerIcon": "./assets/logo.svg"
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/finance"
   }
 }

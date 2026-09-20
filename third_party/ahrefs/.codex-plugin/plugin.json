@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://ahrefs.com/mcp",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/ahrefs",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "ahrefs",
@@ -32,7 +32,7 @@
     "defaultPrompt": [
       "Use Ahrefs."
     ],
-    "websiteURL": "https://ahrefs.com/mcp",
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/ahrefs",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png"
   }

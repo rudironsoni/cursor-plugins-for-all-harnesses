@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://developers.brevo.com/docs/mcp-protocol",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/brevo",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "brevo",
@@ -32,7 +32,7 @@
     "defaultPrompt": [
       "Use Brevo."
     ],
-    "websiteURL": "https://developers.brevo.com/docs/mcp-protocol",
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/brevo",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png"
   }

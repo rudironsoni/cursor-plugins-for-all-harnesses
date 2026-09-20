@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://workable.readme.io/reference/workable-mcp-server",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/workable",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "workable",
@@ -32,7 +32,7 @@
     "defaultPrompt": [
       "Use Workable."
     ],
-    "websiteURL": "https://workable.readme.io/reference/workable-mcp-server",
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/workable",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png"
   }

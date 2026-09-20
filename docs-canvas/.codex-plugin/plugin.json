@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://github.com/cursor/plugins/tree/main/docs-canvas",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/docs-canvas",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "cursor-plugin",
@@ -30,7 +30,7 @@
     "defaultPrompt": [
       "Use Docs Canvas."
     ],
-    "websiteURL": "https://github.com/cursor/plugins/tree/main/docs-canvas",
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/docs-canvas",
     "logo": "./assets/avatar.png",
     "composerIcon": "./assets/avatar.png"
   }

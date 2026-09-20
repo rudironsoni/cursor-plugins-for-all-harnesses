@@ -9,6 +9,8 @@ const root = resolve(__dirname, "..");
 
 const MARKETPLACE_NAME = "cursor-plugins";
 const MARKETPLACE_OWNER = { name: "Rudimar Ronsoni" };
+const MARKETPLACE_REPO =
+  "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses.git";
 const DESCRIPTION =
   "Cursor plugins packaged for Claude Code, Grok Build, Codex, ChatGPT, and OpenCode.";
 
@@ -60,7 +62,7 @@ const CHATGPT_APPS = {
   sharepoint: {
     sharepoint: {
       id: "connector_1e4f6a44acf14e3ca1d96672f8c945bc",
-      required: true,
+      required: false,
     },
   },
   outlook: {
@@ -194,13 +196,13 @@ function buildCodexInterface(entry) {
       clip(`Use ${displayName}.`, 128),
     ],
   };
-  if (entry.plugin.homepage?.startsWith("https://")) {
-    iface.websiteURL = entry.plugin.homepage;
-  }
+  iface.websiteURL = `${MARKETPLACE_REPO.replace(/\.git$/, "")}/tree/main/${entry.source}`;
   if (entry.plugin.logo) {
     const logo = `./${String(entry.plugin.logo).replace(/^\.\//, "")}`;
-    iface.logo = logo;
-    iface.composerIcon = logo;
+    if (/\.(png|jpe?g|webp)$/i.test(logo)) {
+      iface.logo = logo;
+      iface.composerIcon = logo;
+    }
   }
   return iface;
 }
@@ -213,8 +215,8 @@ function buildCodexPlugin(entry) {
   };
   const author = pickAuthor(entry.plugin);
   if (author) manifest.author = author;
-  if (entry.plugin.homepage) manifest.homepage = entry.plugin.homepage;
-  if (entry.plugin.repository) manifest.repository = entry.plugin.repository;
+  manifest.homepage = `${MARKETPLACE_REPO.replace(/\.git$/, "")}/tree/main/${entry.source}`;
+  manifest.repository = MARKETPLACE_REPO.replace(/\.git$/, "");
   if (entry.plugin.license) manifest.license = entry.plugin.license;
   if (entry.plugin.keywords?.length) manifest.keywords = entry.plugin.keywords;
   if (entry.components.skills) manifest.skills = "./skills/";
@@ -295,8 +297,14 @@ function buildCodexMarketplace(entries) {
     plugins: entries.map((entry) => ({
       name: entry.name,
       source: {
-        source: "local",
+        source: "git-subdir",
+        url: MARKETPLACE_REPO,
         path: toRelativeSource(entry.source),
+        ref: "main",
+      },
+      policy: {
+        installation: "AVAILABLE",
+        authentication: entry.components.mcp ? "ON_INSTALL" : "ON_FIRST_USE",
       },
       category: openaiCategory(entry.plugin.category),
     })),

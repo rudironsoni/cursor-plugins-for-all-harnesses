@@ -6,8 +6,8 @@
     "name": "Cursor",
     "email": "plugins@cursor.com"
   },
-  "homepage": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
-  "repository": "https://github.com/cursor/plugins",
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/smartsheet",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
   "license": "MIT",
   "keywords": [
     "smartsheet",
@@ -31,7 +31,7 @@
     "defaultPrompt": [
       "Use Smartsheet."
     ],
-    "websiteURL": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/smartsheet",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png"
   }
