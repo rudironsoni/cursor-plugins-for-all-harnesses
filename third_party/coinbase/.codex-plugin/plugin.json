@@ -1,0 +1,40 @@
+{
+  "name": "coinbase",
+  "version": "1.0.0",
+  "description": "Check balances, get quotes, and preview or place trades.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/coinbase",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
+  "license": "MIT",
+  "keywords": [
+    "coinbase",
+    "crypto",
+    "trading",
+    "portfolio",
+    "balances",
+    "market data",
+    "advanced trade",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Coinbase",
+    "shortDescription": "Check balances, get quotes, and preview or place trades.",
+    "longDescription": "Check balances, get quotes, and preview or place trades.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Coinbase."
+    ],
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/coinbase",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}

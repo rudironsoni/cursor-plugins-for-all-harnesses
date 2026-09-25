@@ -1,0 +1,42 @@
+{
+  "name": "robinhood",
+  "version": "1.0.0",
+  "description": "View portfolios, positions, orders, watchlists, and market data, and trade in a Robinhood Agentic account.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/robinhood",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
+  "license": "MIT",
+  "keywords": [
+    "robinhood",
+    "brokerage",
+    "trading",
+    "portfolio",
+    "stocks",
+    "options",
+    "crypto",
+    "market data",
+    "watchlists",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "Robinhood",
+    "shortDescription": "View portfolios, positions, orders, watchlists, and market data, and trade in a Robinhood Agentic account.",
+    "longDescription": "View portfolios, positions, orders, watchlists, and market data, and trade in a Robinhood Agentic account.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Robinhood."
+    ],
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/robinhood",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "x-money",
+  "version": "1.0.0",
+  "description": "Use your X Money Card, send money to users on X, manage your finances, view your balance and browse through your transaction history.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/x-money",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
+  "license": "MIT",
+  "keywords": [
+    "x money",
+    "xmoney",
+    "x",
+    "payments",
+    "balance",
+    "transactions",
+    "send money",
+    "p2p",
+    "virtual card",
+    "wallet",
+    "finance",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "X Money",
+    "shortDescription": "Use your X Money Card, send money to users on X, manage your finances, view your balance and browse through your transaction history.",
+    "longDescription": "Use your X Money Card, send money to users on X, manage your finances, view your balance and browse through your transaction history.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use X Money."
+    ],
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/x-money",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}

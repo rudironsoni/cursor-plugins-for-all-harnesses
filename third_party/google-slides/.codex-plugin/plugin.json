@@ -1,0 +1,37 @@
+{
+  "name": "google-slides",
+  "version": "1.1.0",
+  "description": "Create, edit, and render presentations.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/google-slides",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
+  "license": "MIT",
+  "keywords": [
+    "google-slides",
+    "slides",
+    "google",
+    "mcp",
+    "presentations",
+    "workspace"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Google Slides",
+    "shortDescription": "Create, edit, and render presentations.",
+    "longDescription": "Create, edit, and render presentations.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Google Slides."
+    ],
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/google-slides"
+  }
+}

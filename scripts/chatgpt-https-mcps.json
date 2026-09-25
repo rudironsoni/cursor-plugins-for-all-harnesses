@@ -22,6 +22,27 @@
       "chatgptApp": true
     },
     {
+      "plugin": "google-docs",
+      "server": "google-docs",
+      "url": "https://api.cursor.com/rest-mcp/google-docs/mcp",
+      "auth": "none",
+      "chatgptApp": false
+    },
+    {
+      "plugin": "google-sheets",
+      "server": "google-sheets",
+      "url": "https://api.cursor.com/rest-mcp/google-sheets/mcp",
+      "auth": "none",
+      "chatgptApp": false
+    },
+    {
+      "plugin": "google-slides",
+      "server": "google-slides",
+      "url": "https://api.cursor.com/rest-mcp/google-slides/mcp",
+      "auth": "none",
+      "chatgptApp": false
+    },
+    {
       "plugin": "gong",
       "server": "gong",
       "url": "https://mcp.gong.io/mcp",
@@ -431,6 +452,41 @@
       "plugin": "statsig",
       "server": "statsig",
       "url": "https://api.statsig.com/v1/mcp",
+      "auth": "none",
+      "chatgptApp": false
+    },
+    {
+      "plugin": "robinhood",
+      "server": "robinhood",
+      "url": "https://agent.robinhood.com/mcp/trading",
+      "auth": "none",
+      "chatgptApp": false
+    },
+    {
+      "plugin": "coinbase",
+      "server": "coinbase",
+      "url": "https://agents.coinbase.com/mcp",
+      "auth": "none",
+      "chatgptApp": false
+    },
+    {
+      "plugin": "etoro-trading",
+      "server": "etoro-trading",
+      "url": "https://mcp.public-api.etoro.com",
+      "auth": "none",
+      "chatgptApp": false
+    },
+    {
+      "plugin": "x-money",
+      "server": "x-money",
+      "url": "https://mcp.money.x.com/mcp",
+      "auth": "none",
+      "chatgptApp": false
+    },
+    {
+      "plugin": "shopify-store",
+      "server": "shopify",
+      "url": "https://setup.shopify.com/mcp",
       "auth": "none",
       "chatgptApp": false
     }

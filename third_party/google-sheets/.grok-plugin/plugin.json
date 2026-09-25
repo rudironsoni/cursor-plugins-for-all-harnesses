@@ -1,0 +1,11 @@
+{
+  "name": "google-sheets",
+  "version": "1.1.0",
+  "description": "Read, write, and append spreadsheet data.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "robinhood",
+  "version": "1.0.0",
+  "description": "View portfolios, positions, orders, watchlists, and market data, and trade in a Robinhood Agentic account.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "mcpServers": "./.mcp.json"
+}
