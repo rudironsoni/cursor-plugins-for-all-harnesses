@@ -168,6 +168,33 @@
       }
     },
     {
+      "name": "google-docs",
+      "description": "Read, create, and edit documents.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/google-docs"
+      }
+    },
+    {
+      "name": "google-sheets",
+      "description": "Read, write, and append spreadsheet data.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/google-sheets"
+      }
+    },
+    {
+      "name": "google-slides",
+      "description": "Create, edit, and render presentations.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./third_party/google-slides"
+      }
+    },
+    {
       "name": "gong",
       "description": "Pull account summaries, deal insights, and call briefs.",
       "category": "development",
@@ -610,7 +637,7 @@
     },
     {
       "name": "finance",
-      "description": "Securely connect your accounts so Grok can help with questions about your spending, subscriptions, balances, and investments.",
+      "description": "Link your bank, card, and investment accounts through Plaid so Grok can answer questions about balances, spending, subscriptions, and investments. You'll share contact details, account and balance info, transactions, credit and loans, and investments. Grok syncs and stores your linked account data so the connector can work, and Grok Bot's privacy mode still controls whether your conversations are stored or used for training. Access is read-only, xAI never sees or stores your bank login, and you can unlink accounts anytime from cursor.com.",
       "category": "development",
       "source": {
         "type": "local",
@@ -723,6 +750,51 @@
       "source": {
         "type": "local",
         "path": "./third_party/statsig"
+      }
+    },
+    {
+      "name": "robinhood",
+      "description": "View portfolios, positions, orders, watchlists, and market data, and trade in a Robinhood Agentic account.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/robinhood"
+      }
+    },
+    {
+      "name": "coinbase",
+      "description": "Check balances, get quotes, and preview or place trades.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/coinbase"
+      }
+    },
+    {
+      "name": "etoro-trading",
+      "description": "View your eToro portfolio, balances, positions, and watchlists, research instruments and traders, and prepare and place trades.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/etoro-trading"
+      }
+    },
+    {
+      "name": "x-money",
+      "description": "Use your X Money Card, send money to users on X, manage your finances, view your balance and browse through your transaction history.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/x-money"
+      }
+    },
+    {
+      "name": "shopify-store",
+      "description": "Connect your Shopify store so Grok can answer questions about your products, orders, customers, inventory, and sales. You sign in with Shopify and approve the store access Grok requests; Grok keeps that authorization so the connector can work, and Grok Bot's privacy mode still controls whether your conversations are stored or used for training. xAI never sees or stores your Shopify password, and you can disconnect the store anytime from grok.com.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./third_party/shopify-store"
       }
     }
   ]

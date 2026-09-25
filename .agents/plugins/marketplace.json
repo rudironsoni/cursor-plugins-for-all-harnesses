@@ -221,6 +221,42 @@
       "category": "Productivity"
     },
     {
+      "name": "google-docs",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-docs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-sheets",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-sheets"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-slides",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-slides"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "gong",
       "source": {
         "source": "local",
@@ -957,6 +993,66 @@
       "source": {
         "source": "local",
         "path": "./third_party/statsig"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "robinhood",
+      "source": {
+        "source": "local",
+        "path": "./third_party/robinhood"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "coinbase",
+      "source": {
+        "source": "local",
+        "path": "./third_party/coinbase"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "etoro-trading",
+      "source": {
+        "source": "local",
+        "path": "./third_party/etoro-trading"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "x-money",
+      "source": {
+        "source": "local",
+        "path": "./third_party/x-money"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "shopify-store",
+      "source": {
+        "source": "local",
+        "path": "./third_party/shopify-store"
       },
       "policy": {
         "installation": "AVAILABLE",

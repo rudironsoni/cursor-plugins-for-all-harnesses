@@ -1,0 +1,37 @@
+{
+  "name": "google-docs",
+  "version": "1.1.0",
+  "description": "Read, create, and edit documents.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/google-docs",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
+  "license": "MIT",
+  "keywords": [
+    "google-docs",
+    "docs",
+    "google",
+    "mcp",
+    "documents",
+    "workspace"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Google Docs",
+    "shortDescription": "Read, create, and edit documents.",
+    "longDescription": "Read, create, and edit documents.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Google Docs."
+    ],
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/google-docs"
+  }
+}

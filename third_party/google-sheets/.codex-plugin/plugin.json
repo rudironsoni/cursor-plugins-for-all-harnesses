@@ -1,0 +1,37 @@
+{
+  "name": "google-sheets",
+  "version": "1.1.0",
+  "description": "Read, write, and append spreadsheet data.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/google-sheets",
+  "repository": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses",
+  "license": "MIT",
+  "keywords": [
+    "google-sheets",
+    "sheets",
+    "google",
+    "mcp",
+    "spreadsheets",
+    "workspace"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Google Sheets",
+    "shortDescription": "Read, write, and append spreadsheet data.",
+    "longDescription": "Read, write, and append spreadsheet data.",
+    "developerName": "Cursor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Google Sheets."
+    ],
+    "websiteURL": "https://github.com/rudironsoni/cursor-plugins-for-all-harnesses/tree/main/third_party/google-sheets"
+  }
+}
